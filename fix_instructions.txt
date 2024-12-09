@@ -1,0 +1,22 @@
+1. **Issue Description**:
+
+   - **Location**: requirements.txt
+   
+   - **Explanation**: There is a dependency conflict between diffusers and huggingface-hub. The current version of huggingface-hub (0.19.4) does not contain the 'cached_download' function that diffusers 0.25.0 is trying to use. We need to install an older version of huggingface-hub that still has this function.
+   
+   - **Recommendation**: Update the huggingface-hub version in requirements.txt to 0.17.3, which is known to be compatible with diffusers 0.25.0.
+
+2. **Implementation Steps**:
+
+   1. Modify requirements.txt to change the huggingface-hub version:
+      - Change `huggingface-hub==0.19.4` to `huggingface-hub==0.17.3`
+   
+   2. Reinstall dependencies:
+      - Delete the existing virtual environment (if any)
+      - Create a new virtual environment
+      - Install the updated requirements
+      
+   The specific command to fix this would be:
+   ```
+   pip uninstall huggingface-hub diffusers -y
+   pip install -r requirements.txt

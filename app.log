@@ -1,0 +1,152 @@
+2024-12-07 18:56:22,574 - INFO - Starting Simple Stable Diffusion application...
+2024-12-07 18:56:22,575 - INFO - Created directory: models/stable-diffusion
+2024-12-07 18:56:22,575 - INFO - Created directory: output_images
+2024-12-07 18:56:22,575 - INFO - Creating UI...
+2024-12-07 18:56:22,635 - INFO - Found models: ['forgottenmixAnimation_v10.safetensors']
+2024-12-07 18:56:22,636 - INFO - Found models: ['forgottenmixAnimation_v10.safetensors']
+2024-12-07 18:56:22,891 - INFO - HTTP Request: GET http://127.0.0.1:7865/gradio_api/startup-events "HTTP/1.1 200 OK"
+2024-12-07 18:56:22,904 - INFO - HTTP Request: HEAD http://127.0.0.1:7865/ "HTTP/1.1 200 OK"
+2024-12-07 18:56:23,231 - INFO - HTTP Request: GET https://api.gradio.app/pkg-version "HTTP/1.1 200 OK"
+2024-12-07 18:56:44,100 - INFO - Starting image generation with parameters:
+2024-12-07 18:56:44,101 - INFO - Model: forgottenmixAnimation_v10.safetensors
+2024-12-07 18:56:44,101 - INFO - Prompt: a woman standing in the desert
+2024-12-07 18:56:44,101 - INFO - Steps: 20, Width: 512, Height: 512, CFG: 7, Seed: -1
+2024-12-07 18:56:44,101 - INFO - Initializing StableDiffusionPipeline...
+2024-12-07 18:56:44,102 - ERROR - Error generating image: 
+StableDiffusionPipeline requires the transformers library but it was not found in your environment. You can install it with pip: `pip
+install transformers`
+Traceback (most recent call last):
+  File "C:\Users\crock\.aider\SimpleStable\app.py", line 54, in generate_image
+    pipe = StableDiffusionPipeline.from_single_file(
+  File "c:\Users\crock\.aider\SimpleStable\venv\lib\site-packages\diffusers\utils\import_utils.py", line 665, in __getattr__
+    requires_backends(cls, cls._backends)
+  File "c:\Users\crock\.aider\SimpleStable\venv\lib\site-packages\diffusers\utils\import_utils.py", line 633, in requires_backends
+    raise ImportError("".join(failed))
+ImportError: 
+StableDiffusionPipeline requires the transformers library but it was not found in your environment. You can install it with pip: `pip
+install transformers`
+
+2024-12-07 19:07:34,994 - INFO - Starting Simple Stable Diffusion application...
+2024-12-07 19:07:34,995 - INFO - Created directory: models/stable-diffusion
+2024-12-07 19:07:34,995 - INFO - Created directory: output_images
+2024-12-07 19:07:34,995 - INFO - Creating UI...
+2024-12-07 19:07:35,052 - INFO - Found models: ['forgottenmixAnimation_v10.safetensors']
+2024-12-07 19:07:35,053 - INFO - Found models: ['forgottenmixAnimation_v10.safetensors']
+2024-12-07 19:07:35,650 - INFO - HTTP Request: GET https://api.gradio.app/pkg-version "HTTP/1.1 200 OK"
+2024-12-07 19:11:19,511 - INFO - Starting Simple Stable Diffusion application...
+2024-12-07 19:11:19,512 - INFO - Created directory: models/stable-diffusion
+2024-12-07 19:11:19,512 - INFO - Created directory: output_images
+2024-12-07 19:11:19,512 - INFO - Creating UI...
+2024-12-07 19:11:19,568 - INFO - Found models: ['forgottenmixAnimation_v10.safetensors']
+2024-12-07 19:11:19,569 - INFO - Found models: ['forgottenmixAnimation_v10.safetensors']
+2024-12-07 19:11:19,878 - INFO - HTTP Request: GET http://127.0.0.1:7860/gradio_api/startup-events "HTTP/1.1 200 OK"
+2024-12-07 19:11:19,891 - INFO - HTTP Request: HEAD http://127.0.0.1:7860/ "HTTP/1.1 200 OK"
+2024-12-07 19:11:20,148 - INFO - HTTP Request: GET https://api.gradio.app/pkg-version "HTTP/1.1 200 OK"
+2024-12-07 19:11:45,495 - INFO - Starting image generation with parameters:
+2024-12-07 19:11:45,496 - INFO - Model: forgottenmixAnimation_v10.safetensors
+2024-12-07 19:11:45,496 - INFO - Prompt: A blonde woman standing in the desert
+2024-12-07 19:11:45,496 - INFO - Steps: 20, Width: 512, Height: 512, CFG: 7, Seed: -1
+2024-12-07 19:11:45,496 - INFO - Initializing StableDiffusionPipeline...
+2024-12-07 19:11:45,497 - ERROR - Error generating image: 
+StableDiffusionPipeline requires the transformers library but it was not found in your environment. You can install it with pip: `pip
+install transformers`
+Traceback (most recent call last):
+  File "C:\Users\crock\.aider\SimpleStable\app.py", line 54, in generate_image
+    pipe = StableDiffusionPipeline.from_single_file(
+  File "c:\Users\crock\.aider\SimpleStable\venv\lib\site-packages\diffusers\utils\import_utils.py", line 665, in __getattr__
+    requires_backends(cls, cls._backends)
+  File "c:\Users\crock\.aider\SimpleStable\venv\lib\site-packages\diffusers\utils\import_utils.py", line 633, in requires_backends
+    raise ImportError("".join(failed))
+ImportError: 
+StableDiffusionPipeline requires the transformers library but it was not found in your environment. You can install it with pip: `pip
+install transformers`
+
+2024-12-07 19:50:44,743 - INFO - Starting Simple Stable Diffusion application...
+2024-12-07 19:50:44,744 - INFO - Created directory: models/stable-diffusion
+2024-12-07 19:50:44,744 - INFO - Created directory: output_images
+2024-12-07 19:50:44,744 - INFO - Creating UI...
+2024-12-07 19:50:44,801 - INFO - Found models: ['forgottenmixAnimation_v10.safetensors']
+2024-12-07 19:50:44,802 - INFO - Found models: ['forgottenmixAnimation_v10.safetensors']
+2024-12-07 19:50:45,080 - INFO - HTTP Request: GET http://127.0.0.1:7860/gradio_api/startup-events "HTTP/1.1 200 OK"
+2024-12-07 19:50:45,114 - INFO - HTTP Request: HEAD http://127.0.0.1:7860/ "HTTP/1.1 200 OK"
+2024-12-07 19:50:45,401 - INFO - HTTP Request: GET https://api.gradio.app/pkg-version "HTTP/1.1 200 OK"
+2024-12-07 19:52:13,011 - INFO - Starting image generation with parameters:
+2024-12-07 19:52:13,012 - INFO - Model: forgottenmixAnimation_v10.safetensors
+2024-12-07 19:52:13,012 - INFO - Prompt: a blonde woman standing in a desert
+2024-12-07 19:52:13,013 - INFO - Steps: 20, Width: 512, Height: 512, CFG: 7, Seed: -1
+2024-12-07 19:52:13,014 - INFO - Initializing StableDiffusionPipeline...
+2024-12-07 19:52:13,015 - ERROR - Error generating image: 
+StableDiffusionPipeline requires the transformers library but it was not found in your environment. You can install it with pip: `pip
+install transformers`
+Traceback (most recent call last):
+  File "C:\Users\crock\.aider\SimpleStable\app.py", line 54, in generate_image
+    pipe = StableDiffusionPipeline.from_single_file(
+  File "c:\Users\crock\.aider\SimpleStable\venv\lib\site-packages\diffusers\utils\import_utils.py", line 665, in __getattr__
+    requires_backends(cls, cls._backends)
+  File "c:\Users\crock\.aider\SimpleStable\venv\lib\site-packages\diffusers\utils\import_utils.py", line 633, in requires_backends
+    raise ImportError("".join(failed))
+ImportError: 
+StableDiffusionPipeline requires the transformers library but it was not found in your environment. You can install it with pip: `pip
+install transformers`
+
+2024-12-07 20:06:07,411 - INFO - Starting Simple Stable Diffusion application...
+2024-12-07 20:06:07,412 - INFO - Created directory: models/stable-diffusion
+2024-12-07 20:06:07,412 - INFO - Created directory: output_images
+2024-12-07 20:06:07,413 - INFO - Creating UI...
+2024-12-07 20:06:07,476 - INFO - Found models: ['forgottenmixAnimation_v10.safetensors']
+2024-12-07 20:06:07,477 - INFO - Found models: ['forgottenmixAnimation_v10.safetensors']
+2024-12-07 20:06:07,789 - INFO - HTTP Request: GET http://127.0.0.1:7860/gradio_api/startup-events "HTTP/1.1 200 OK"
+2024-12-07 20:06:08,001 - INFO - HTTP Request: HEAD http://127.0.0.1:7860/ "HTTP/1.1 200 OK"
+2024-12-07 20:06:08,078 - INFO - HTTP Request: GET https://api.gradio.app/pkg-version "HTTP/1.1 200 OK"
+2024-12-07 20:06:27,727 - INFO - Starting image generation with parameters:
+2024-12-07 20:06:27,727 - INFO - Model: forgottenmixAnimation_v10.safetensors
+2024-12-07 20:06:27,728 - INFO - Prompt: a blonde girl standing in the desert
+
+2024-12-07 20:06:27,728 - INFO - Steps: 20, Width: 512, Height: 512, CFG: 7, Seed: -1
+2024-12-07 20:06:27,728 - INFO - Initializing StableDiffusionPipeline...
+2024-12-07 20:06:42,142 - INFO - Using CPU for generation
+2024-12-07 20:06:42,143 - INFO - Generating image...
+2024-12-07 20:08:08,709 - INFO - Image saved to: output_images\generated_-1.png
+2024-12-09 08:37:44,323 - INFO - Starting Simple Stable Diffusion application...
+2024-12-09 08:37:44,323 - INFO - Created directory: models/stable-diffusion
+2024-12-09 08:37:44,324 - INFO - Created directory: output_images
+2024-12-09 08:37:44,324 - INFO - Creating UI...
+2024-12-09 08:37:44,381 - INFO - Found models: ['forgottenmixAnimation_v10.safetensors']
+2024-12-09 08:37:44,381 - INFO - Found models: ['forgottenmixAnimation_v10.safetensors']
+2024-12-09 08:37:44,690 - INFO - HTTP Request: GET http://127.0.0.1:7860/gradio_api/startup-events "HTTP/1.1 200 OK"
+2024-12-09 08:37:44,888 - INFO - HTTP Request: HEAD http://127.0.0.1:7860/ "HTTP/1.1 200 OK"
+2024-12-09 08:37:44,938 - INFO - HTTP Request: GET https://api.gradio.app/pkg-version "HTTP/1.1 200 OK"
+2024-12-09 09:02:33,218 - INFO - Starting Simple Stable Diffusion application...
+2024-12-09 09:02:33,219 - INFO - Created directory: models/stable-diffusion
+2024-12-09 09:02:33,219 - INFO - Created directory: output_images
+2024-12-09 09:02:33,219 - INFO - Creating UI...
+2024-12-09 09:02:33,275 - INFO - Found models: ['forgottenmixAnimation_v10.safetensors']
+2024-12-09 09:02:33,276 - INFO - Found models: ['forgottenmixAnimation_v10.safetensors']
+2024-12-09 09:02:33,901 - INFO - HTTP Request: GET https://api.gradio.app/pkg-version "HTTP/1.1 200 OK"
+2024-12-09 09:05:26,777 - INFO - Starting Simple Stable Diffusion application...
+2024-12-09 09:05:26,777 - INFO - Created directory: models/stable-diffusion
+2024-12-09 09:05:26,778 - INFO - Created directory: output_images
+2024-12-09 09:05:26,778 - INFO - Creating UI...
+2024-12-09 09:05:26,835 - INFO - Found models: ['forgottenmixAnimation_v10.safetensors']
+2024-12-09 09:05:26,836 - INFO - Found models: ['forgottenmixAnimation_v10.safetensors']
+2024-12-09 09:05:27,113 - INFO - HTTP Request: GET http://127.0.0.1:7860/gradio_api/startup-events "HTTP/1.1 200 OK"
+2024-12-09 09:05:27,127 - INFO - HTTP Request: HEAD http://127.0.0.1:7860/ "HTTP/1.1 200 OK"
+2024-12-09 09:05:27,427 - INFO - HTTP Request: GET https://api.gradio.app/pkg-version "HTTP/1.1 200 OK"
+2024-12-09 09:28:51,220 - INFO - Starting Simple Stable Diffusion application...
+2024-12-09 09:28:51,221 - INFO - Created directory: models/stable-diffusion
+2024-12-09 09:28:51,221 - INFO - Created directory: output_images
+2024-12-09 09:28:51,221 - INFO - Creating UI...
+2024-12-09 09:28:51,281 - INFO - Found models: ['forgottenmixAnimation_v10.safetensors']
+2024-12-09 09:28:51,281 - INFO - Found models: ['forgottenmixAnimation_v10.safetensors']
+2024-12-09 09:28:51,583 - INFO - HTTP Request: GET http://127.0.0.1:7860/gradio_api/startup-events "HTTP/1.1 200 OK"
+2024-12-09 09:28:51,704 - INFO - HTTP Request: HEAD http://127.0.0.1:7860/ "HTTP/1.1 200 OK"
+2024-12-09 09:28:51,872 - INFO - HTTP Request: GET https://api.gradio.app/pkg-version "HTTP/1.1 200 OK"
+2024-12-09 09:45:22,667 - INFO - Starting Simple Stable Diffusion application...
+2024-12-09 09:45:22,668 - INFO - Created directory: models/stable-diffusion
+2024-12-09 09:45:22,668 - INFO - Created directory: output_images
+2024-12-09 09:45:22,668 - INFO - Creating UI...
+2024-12-09 09:45:22,728 - INFO - Found models: ['forgottenmixAnimation_v10.safetensors']
+2024-12-09 09:45:22,729 - INFO - Found models: ['forgottenmixAnimation_v10.safetensors']
+2024-12-09 09:45:22,998 - INFO - HTTP Request: GET http://127.0.0.1:7860/gradio_api/startup-events "HTTP/1.1 200 OK"
+2024-12-09 09:45:23,035 - INFO - HTTP Request: HEAD http://127.0.0.1:7860/ "HTTP/1.1 200 OK"
+2024-12-09 09:45:23,347 - INFO - HTTP Request: GET https://api.gradio.app/pkg-version "HTTP/1.1 200 OK"
