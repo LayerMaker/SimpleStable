@@ -2,37 +2,34 @@
 __pycache__/
 *.py[cod]
 *$py.class
-*.so
-.Python
-build/
-develop-eggs/
-dist/
-downloads/
-eggs/
-.eggs/
-lib/
-lib64/
-parts/
-sdist/
-var/
-wheels/
-*.egg-info/
-.installed.cfg
-*.egg
-
-# Virtual Environment
 venv/
+venv_stable/
+*.so
+
+# Model files
+models/
+*.safetensors
+*.bin
+*.onnx
+*.pth
+
+# Output
+output_images/
+*.png
+*.jpg
+*.jpeg
+
+# Environment
+.env
+.venv
 env/
 ENV/
 
 # IDE
-.idea/
 .vscode/
+.idea/
 *.swp
 *.swo
 
-# Misc
-.DS_Store
-.env
-.env.local
-.env.*.local
+# Logs
+*.log
