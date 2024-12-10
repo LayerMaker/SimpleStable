@@ -150,3 +150,984 @@ install transformers`
 2024-12-09 09:45:22,998 - INFO - HTTP Request: GET http://127.0.0.1:7860/gradio_api/startup-events "HTTP/1.1 200 OK"
 2024-12-09 09:45:23,035 - INFO - HTTP Request: HEAD http://127.0.0.1:7860/ "HTTP/1.1 200 OK"
 2024-12-09 09:45:23,347 - INFO - HTTP Request: GET https://api.gradio.app/pkg-version "HTTP/1.1 200 OK"
+2024-12-09 11:47:50,198 - INFO - Starting image generation with parameters:
+2024-12-09 11:47:50,204 - INFO - Model: forgottenmixAnimation_v10.safetensors
+2024-12-09 11:47:50,208 - INFO - Prompt: A blonde woman standing in the desert
+2024-12-09 11:47:50,208 - INFO - Steps: 20, Width: 512, Height: 512, CFG: 7, Seed: -1
+2024-12-09 11:47:50,211 - INFO - Initializing StableDiffusionPipeline...
+2024-12-09 11:48:07,619 - INFO - Using CPU for generation
+2024-12-09 11:48:07,621 - INFO - Generating image...
+2024-12-09 11:53:06,192 - INFO - Image saved to: output_images\generated_-1.png
+2024-12-09 13:14:09,282 - INFO - Starting Simple Stable Diffusion application...
+2024-12-09 13:14:09,282 - INFO - Created directory: models/stable-diffusion
+2024-12-09 13:14:09,283 - INFO - Created directory: output_images
+2024-12-09 13:14:09,283 - INFO - Creating UI...
+2024-12-09 13:14:09,344 - INFO - Found models: ['forgottenmixAnimation_v10.safetensors']
+2024-12-09 13:14:09,344 - INFO - Found models: ['forgottenmixAnimation_v10.safetensors']
+2024-12-09 13:14:10,025 - INFO - HTTP Request: GET https://api.gradio.app/pkg-version "HTTP/1.1 200 OK"
+2024-12-09 13:22:54,615 - INFO - Starting Simple Stable Diffusion application...
+2024-12-09 13:22:54,615 - INFO - Created directory: models/stable-diffusion
+2024-12-09 13:22:54,616 - INFO - Created directory: output_images
+2024-12-09 13:22:54,616 - INFO - Creating UI...
+2024-12-09 13:22:54,677 - INFO - Found models: ['forgottenmixAnimation_v10.safetensors']
+2024-12-09 13:22:54,677 - INFO - Found models: ['forgottenmixAnimation_v10.safetensors']
+2024-12-09 13:22:54,732 - INFO - Attempting to launch on port 7860
+2024-12-09 13:22:54,864 - WARNING - Port 7860 is in use, trying next port
+2024-12-09 13:22:54,864 - INFO - Attempting to launch on port 7861
+2024-12-09 13:22:55,028 - INFO - HTTP Request: GET http://127.0.0.1:7861/gradio_api/startup-events "HTTP/1.1 200 OK"
+2024-12-09 13:22:55,151 - INFO - HTTP Request: HEAD http://127.0.0.1:7861/ "HTTP/1.1 200 OK"
+2024-12-09 13:22:55,284 - INFO - HTTP Request: GET https://api.gradio.app/pkg-version "HTTP/1.1 200 OK"
+2024-12-09 13:23:17,024 - INFO - Starting image generation with parameters:
+2024-12-09 13:23:17,024 - INFO - Model: forgottenmixAnimation_v10.safetensors
+2024-12-09 13:23:17,025 - INFO - Prompt: A blonde woman standing in the desert
+
+2024-12-09 13:23:17,025 - INFO - Steps: 20, Width: 512, Height: 512, CFG: 7, Seed: -1
+2024-12-09 13:23:17,025 - INFO - Initializing StableDiffusionPipeline...
+2024-12-09 13:23:35,143 - INFO - Using CPU for generation
+2024-12-09 13:23:35,147 - INFO - Generating image...
+2024-12-09 13:24:53,063 - INFO - Image saved to: output_images\generated_-1.png
+2024-12-09 13:29:56,670 - INFO - Starting Simple Stable Diffusion application...
+2024-12-09 13:29:56,670 - INFO - Created directory: models/stable-diffusion
+2024-12-09 13:29:56,671 - INFO - Created directory: output_images
+2024-12-09 13:29:56,671 - INFO - Creating UI...
+2024-12-09 13:29:56,730 - INFO - Found models: ['forgottenmixAnimation_v10.safetensors']
+2024-12-09 13:29:56,731 - INFO - Found models: ['forgottenmixAnimation_v10.safetensors']
+2024-12-09 13:29:56,786 - INFO - Attempting to launch on port 7860
+2024-12-09 13:29:56,963 - WARNING - Port 7860 is in use, trying next port
+2024-12-09 13:29:56,964 - INFO - Attempting to launch on port 7861
+2024-12-09 13:29:57,081 - WARNING - Port 7861 is in use, trying next port
+2024-12-09 13:29:57,081 - INFO - Attempting to launch on port 7862
+2024-12-09 13:29:57,234 - INFO - HTTP Request: GET http://127.0.0.1:7862/gradio_api/startup-events "HTTP/1.1 200 OK"
+2024-12-09 13:29:57,331 - INFO - HTTP Request: HEAD http://127.0.0.1:7862/ "HTTP/1.1 200 OK"
+2024-12-09 13:29:57,343 - INFO - HTTP Request: GET https://api.gradio.app/pkg-version "HTTP/1.1 200 OK"
+2024-12-09 13:30:32,225 - INFO - Starting Simple Stable Diffusion application...
+2024-12-09 13:30:32,226 - INFO - Created directory: models/stable-diffusion
+2024-12-09 13:30:32,226 - INFO - Created directory: output_images
+2024-12-09 13:30:32,226 - INFO - Creating UI...
+2024-12-09 13:30:32,282 - INFO - Found models: ['forgottenmixAnimation_v10.safetensors']
+2024-12-09 13:30:32,288 - INFO - Found models: ['forgottenmixAnimation_v10.safetensors']
+2024-12-09 13:30:32,342 - INFO - Attempting to launch on port 7860
+2024-12-09 13:30:32,523 - WARNING - Port 7860 is in use, trying next port
+2024-12-09 13:30:32,524 - INFO - Attempting to launch on port 7861
+2024-12-09 13:30:32,681 - INFO - HTTP Request: GET http://127.0.0.1:7861/gradio_api/startup-events "HTTP/1.1 200 OK"
+2024-12-09 13:30:32,697 - INFO - HTTP Request: HEAD http://127.0.0.1:7861/ "HTTP/1.1 200 OK"
+2024-12-09 13:30:32,866 - INFO - HTTP Request: GET https://api.gradio.app/pkg-version "HTTP/1.1 200 OK"
+2024-12-09 21:29:41,529 - INFO - Starting Simple Stable Diffusion application...
+2024-12-09 21:29:41,530 - INFO - Created directory: models/stable-diffusion
+2024-12-09 21:29:41,530 - INFO - Created directory: output_images
+2024-12-09 21:29:41,530 - INFO - Creating UI...
+2024-12-09 21:29:41,687 - INFO - Found models: ['forgottenmixAnimation_v10.safetensors']
+2024-12-09 21:29:41,701 - INFO - Found models: ['forgottenmixAnimation_v10.safetensors']
+2024-12-09 21:29:41,764 - INFO - Attempting to launch on port 7860
+2024-12-09 21:29:41,976 - INFO - HTTP Request: GET http://127.0.0.1:7860/gradio_api/startup-events "HTTP/1.1 200 OK"
+2024-12-09 21:29:42,061 - INFO - HTTP Request: HEAD http://127.0.0.1:7860/ "HTTP/1.1 200 OK"
+2024-12-09 21:29:42,267 - INFO - HTTP Request: GET https://api.gradio.app/pkg-version "HTTP/1.1 200 OK"
+2024-12-09 21:30:00,019 - INFO - Starting image generation with parameters:
+2024-12-09 21:30:00,027 - INFO - Model: forgottenmixAnimation_v10.safetensors
+2024-12-09 21:30:00,027 - INFO - Prompt: A blonde woman standing in the desert
+2024-12-09 21:30:00,032 - INFO - Steps: 20, Width: 512, Height: 512, CFG: 7, Seed: -1
+2024-12-09 21:30:00,033 - INFO - Initializing StableDiffusionPipeline...
+2024-12-09 21:30:16,777 - INFO - Using CUDA for generation
+2024-12-09 21:30:16,782 - INFO - GPU Device: NVIDIA GeForce RTX 4060 Laptop GPU
+2024-12-09 21:30:16,783 - INFO - CUDA Memory Allocated: 2070.85 MB
+2024-12-09 21:30:16,786 - INFO - Generating image...
+2024-12-09 21:30:20,186 - INFO - Image saved to: output_images\generated_-1.png
+2024-12-09 21:30:47,394 - INFO - Starting image generation with parameters:
+2024-12-09 21:30:47,395 - INFO - Model: forgottenmixAnimation_v10.safetensors
+2024-12-09 21:30:47,395 - INFO - Prompt: A blonde woman standing in the desert
+2024-12-09 21:30:47,396 - INFO - Steps: 20, Width: 512, Height: 512, CFG: 7, Seed: -1
+2024-12-09 21:30:47,397 - INFO - Initializing StableDiffusionPipeline...
+2024-12-09 21:31:14,317 - INFO - Using CUDA for generation
+2024-12-09 21:31:14,323 - INFO - GPU Device: NVIDIA GeForce RTX 4060 Laptop GPU
+2024-12-09 21:31:14,324 - INFO - CUDA Memory Allocated: 2079.53 MB
+2024-12-09 21:31:14,325 - INFO - Generating image...
+2024-12-09 21:31:17,010 - INFO - Image saved to: output_images\generated_-1.png
+2024-12-09 21:31:59,376 - INFO - Starting image generation with parameters:
+2024-12-09 21:31:59,377 - INFO - Model: forgottenmixAnimation_v10.safetensors
+2024-12-09 21:31:59,378 - INFO - Prompt: 3dmm, full body  portrait, The body is standing in the T position, head straight, front facing, facing the viewer, facing front on, looking at the camera, 1girl, slim, skinny body, centered, absurdres, artist name, White blond hair, hair around her face, short hair, hair down, hair straight down, blue eyes, mediaeval rags, Rag clothing, poverty rags clothing, Victorian tramp clothing, extra extra tiny breasts, extremely small tits, nipples point up, puffy nipples, nipples high up on breasts, flat chested, highres, enormous lips, big mouth, nose, samus aran, solo, full body, standing in a desert, standing straight,, ((masterpiece))
+2024-12-09 21:31:59,378 - INFO - Steps: 20, Width: 512, Height: 512, CFG: 7, Seed: -1
+2024-12-09 21:31:59,380 - INFO - Initializing StableDiffusionPipeline...
+2024-12-09 21:32:30,994 - INFO - Using CUDA for generation
+2024-12-09 21:32:31,008 - INFO - GPU Device: NVIDIA GeForce RTX 4060 Laptop GPU
+2024-12-09 21:32:31,012 - INFO - CUDA Memory Allocated: 2079.53 MB
+2024-12-09 21:32:31,014 - INFO - Generating image...
+2024-12-09 21:32:35,700 - INFO - Image saved to: output_images\generated_-1.png
+2024-12-09 21:33:09,800 - INFO - Starting image generation with parameters:
+2024-12-09 21:33:09,802 - INFO - Model: forgottenmixAnimation_v10.safetensors
+2024-12-09 21:33:09,803 - INFO - Prompt: 3dmm, full body  portrait, The body is standing in the T position, head straight, front facing, facing the viewer, facing front on, looking at the camera, 1girl, slim, skinny body, centered, absurdres, artist name, White blond hair, hair around her face, short hair, hair down, hair straight down, blue eyes, mediaeval rags, Rag clothing, poverty rags clothing, Victorian tramp clothing, extra extra tiny breasts, extremely small tits, nipples point up, puffy nipples, nipples high up on breasts, flat chested, highres, enormous lips, big mouth, nose, samus aran, solo, full body, standing in a desert, standing straight,, ((masterpiece))
+2024-12-09 21:33:09,806 - INFO - Steps: 20, Width: 720, Height: 1080, CFG: 7, Seed: -1
+2024-12-09 21:33:09,808 - INFO - Initializing StableDiffusionPipeline...
+2024-12-09 21:33:24,166 - INFO - Using CUDA for generation
+2024-12-09 21:33:24,168 - INFO - GPU Device: NVIDIA GeForce RTX 4060 Laptop GPU
+2024-12-09 21:33:24,168 - INFO - CUDA Memory Allocated: 2079.53 MB
+2024-12-09 21:33:24,168 - INFO - Generating image...
+2024-12-09 21:33:33,013 - INFO - Image saved to: output_images\generated_-1.png
+2024-12-09 23:27:17,157 - INFO - Starting Simple Stable Diffusion application...
+2024-12-09 23:27:17,180 - INFO - CUDA Device: NVIDIA GeForce RTX 4060 Laptop GPU
+2024-12-09 23:27:17,181 - INFO - CUDA Version: 12.4
+2024-12-09 23:27:17,181 - INFO - PyTorch Version: 2.5.1+cu124
+2024-12-09 23:27:17,181 - INFO - Total GPU Memory: 8188 MB
+2024-12-09 23:27:17,182 - INFO - Created directory: models/stable-diffusion
+2024-12-09 23:27:17,182 - INFO - Created directory: output_images
+2024-12-09 23:27:17,183 - INFO - Creating UI...
+2024-12-09 23:27:17,327 - INFO - Found models: ['forgottenmixAnimation_v10.safetensors']
+2024-12-09 23:27:17,328 - INFO - Found models: ['forgottenmixAnimation_v10.safetensors']
+2024-12-09 23:27:17,424 - INFO - Attempting to launch on port 7860
+2024-12-09 23:27:17,651 - INFO - HTTP Request: GET http://127.0.0.1:7860/gradio_api/startup-events "HTTP/1.1 200 OK"
+2024-12-09 23:27:17,907 - INFO - HTTP Request: GET https://api.gradio.app/pkg-version "HTTP/1.1 200 OK"
+2024-12-09 23:27:17,993 - INFO - HTTP Request: HEAD http://127.0.0.1:7860/ "HTTP/1.1 200 OK"
+2024-12-09 23:35:28,763 - INFO - Starting image generation with parameters:
+2024-12-09 23:35:28,763 - INFO - Model: forgottenmixAnimation_v10.safetensors
+2024-12-09 23:35:28,764 - INFO - Prompt: 3dmm, full body  portrait, The body is standing in the T position, head straight, front facing, facing the viewer, facing front on, looking at the camera, 1girl, slim, skinny body, centered, absurdres, artist name, White blond hair, hair around her face, short hair, hair down, hair straight down, blue eyes, mediaeval rags, Rag clothing, poverty rags clothing, Victorian tramp clothing, extra extra tiny breasts, extremely small tits, nipples point up, puffy nipples, nipples high up on breasts, flat chested, highres, enormous lips, big mouth, nose, samus aran, solo, full body, standing in a desert, standing straight,, ((masterpiece))
+2024-12-09 23:35:28,764 - INFO - Steps: 20, Width: 512, Height: 512, CFG: 7, Seed: -1
+2024-12-09 23:35:28,765 - INFO - Initializing StableDiffusionPipeline...
+2024-12-09 23:35:35,445 - INFO - Could not enable xformers: Refer to https://github.com/facebookresearch/xformers for more information on how to install xformers
+2024-12-09 23:35:36,386 - INFO - Enabled CPU offloading
+2024-12-09 23:35:36,618 - INFO - Enabled sequential CPU offloading
+2024-12-09 23:35:36,625 - INFO - Enabled torch compile optimization
+2024-12-09 23:35:36,625 - INFO - Using CUDA for generation
+2024-12-09 23:35:36,626 - INFO - GPU Device: NVIDIA GeForce RTX 4060 Laptop GPU
+2024-12-09 23:35:36,626 - INFO - CUDA Memory Allocated: 0.00 MB
+2024-12-09 23:35:36,627 - INFO - CUDA Memory Reserved: 2.00 MB
+2024-12-09 23:35:36,627 - INFO - Generating image...
+2024-12-09 23:35:37,678 - ERROR - Error generating image: 'inline in skipfiles: Mapping.keys | keys C:\Users\crock\AppData\Local\Programs\Python\Python310\lib\_collections_abc.py, skipped according trace_rules.lookup SKIP_DIRS'
+
+from user code:
+   File "C:\Users\crock\.aider\SimpleStable\venv_stable\lib\site-packages\accelerate\hooks.py", line 170, in new_forward
+    output = module._old_forward(*args, **kwargs)
+  File "C:\Users\crock\.aider\SimpleStable\venv_stable\lib\site-packages\diffusers\models\unets\unet_2d_condition.py", line 1143, in forward
+    emb = self.time_embedding(t_emb, timestep_cond)
+  File "C:\Users\crock\.aider\SimpleStable\venv_stable\lib\site-packages\diffusers\models\embeddings.py", line 807, in forward
+    sample = self.linear_1(sample)
+  File "C:\Users\crock\.aider\SimpleStable\venv_stable\lib\site-packages\torch\nn\modules\module.py", line 1747, in _call_impl
+    return forward_call(*args, **kwargs)
+  File "C:\Users\crock\.aider\SimpleStable\venv_stable\lib\site-packages\accelerate\hooks.py", line 165, in new_forward
+    args, kwargs = module._hf_hook.pre_forward(module, *args, **kwargs)
+  File "C:\Users\crock\.aider\SimpleStable\venv_stable\lib\site-packages\accelerate\hooks.py", line 337, in pre_forward
+    if "weight" in name and name.replace("weight", "SCB") in self.weights_map.keys():
+
+Set TORCH_LOGS="+dynamo" and TORCHDYNAMO_VERBOSE=1 for more information
+
+
+You can suppress this exception and fall back to eager by setting:
+    import torch._dynamo
+    torch._dynamo.config.suppress_errors = True
+Traceback (most recent call last):
+  File "C:\Users\crock\.aider\SimpleStable\app.py", line 110, in generate_image
+    image = pipe(
+  File "C:\Users\crock\.aider\SimpleStable\venv_stable\lib\site-packages\torch\utils\_contextlib.py", line 116, in decorate_context
+    return func(*args, **kwargs)
+  File "C:\Users\crock\.aider\SimpleStable\venv_stable\lib\site-packages\diffusers\pipelines\stable_diffusion\pipeline_stable_diffusion.py", line 1020, in __call__
+    noise_pred = self.unet(
+  File "C:\Users\crock\.aider\SimpleStable\venv_stable\lib\site-packages\torch\nn\modules\module.py", line 1736, in _wrapped_call_impl
+    return self._call_impl(*args, **kwargs)
+  File "C:\Users\crock\.aider\SimpleStable\venv_stable\lib\site-packages\torch\nn\modules\module.py", line 1747, in _call_impl
+    return forward_call(*args, **kwargs)
+  File "C:\Users\crock\.aider\SimpleStable\venv_stable\lib\site-packages\torch\_dynamo\eval_frame.py", line 465, in _fn
+    return fn(*args, **kwargs)
+  File "C:\Users\crock\.aider\SimpleStable\venv_stable\lib\site-packages\torch\nn\modules\module.py", line 1736, in _wrapped_call_impl
+    return self._call_impl(*args, **kwargs)
+  File "C:\Users\crock\.aider\SimpleStable\venv_stable\lib\site-packages\torch\nn\modules\module.py", line 1747, in _call_impl
+    return forward_call(*args, **kwargs)
+  File "C:\Users\crock\.aider\SimpleStable\venv_stable\lib\site-packages\torch\_dynamo\convert_frame.py", line 1269, in __call__
+    return self._torchdynamo_orig_callable(
+  File "C:\Users\crock\.aider\SimpleStable\venv_stable\lib\site-packages\torch\_dynamo\convert_frame.py", line 526, in __call__
+    return _compile(
+  File "C:\Users\crock\.aider\SimpleStable\venv_stable\lib\site-packages\torch\_dynamo\convert_frame.py", line 924, in _compile
+    guarded_code = compile_inner(code, one_graph, hooks, transform)
+  File "C:\Users\crock\.aider\SimpleStable\venv_stable\lib\site-packages\torch\_dynamo\convert_frame.py", line 666, in compile_inner
+    return _compile_inner(code, one_graph, hooks, transform)
+  File "C:\Users\crock\.aider\SimpleStable\venv_stable\lib\site-packages\torch\_utils_internal.py", line 87, in wrapper_function
+    return function(*args, **kwargs)
+  File "C:\Users\crock\.aider\SimpleStable\venv_stable\lib\site-packages\torch\_dynamo\convert_frame.py", line 699, in _compile_inner
+    out_code = transform_code_object(code, transform)
+  File "C:\Users\crock\.aider\SimpleStable\venv_stable\lib\site-packages\torch\_dynamo\bytecode_transformation.py", line 1322, in transform_code_object
+    transformations(instructions, code_options)
+  File "C:\Users\crock\.aider\SimpleStable\venv_stable\lib\site-packages\torch\_dynamo\convert_frame.py", line 219, in _fn
+    return fn(*args, **kwargs)
+  File "C:\Users\crock\.aider\SimpleStable\venv_stable\lib\site-packages\torch\_dynamo\convert_frame.py", line 634, in transform
+    tracer.run()
+  File "C:\Users\crock\.aider\SimpleStable\venv_stable\lib\site-packages\torch\_dynamo\symbolic_convert.py", line 2796, in run
+    super().run()
+  File "C:\Users\crock\.aider\SimpleStable\venv_stable\lib\site-packages\torch\_dynamo\symbolic_convert.py", line 983, in run
+    while self.step():
+  File "C:\Users\crock\.aider\SimpleStable\venv_stable\lib\site-packages\torch\_dynamo\symbolic_convert.py", line 895, in step
+    self.dispatch_table[inst.opcode](self, inst)
+  File "C:\Users\crock\.aider\SimpleStable\venv_stable\lib\site-packages\torch\_dynamo\symbolic_convert.py", line 582, in wrapper
+    return inner_fn(self, inst)
+  File "C:\Users\crock\.aider\SimpleStable\venv_stable\lib\site-packages\torch\_dynamo\symbolic_convert.py", line 1680, in CALL_FUNCTION_EX
+    self.call_function(fn, argsvars.items, kwargsvars)
+  File "C:\Users\crock\.aider\SimpleStable\venv_stable\lib\site-packages\torch\_dynamo\symbolic_convert.py", line 830, in call_function
+    self.push(fn.call_function(self, args, kwargs))  # type: ignore[arg-type]
+  File "C:\Users\crock\.aider\SimpleStable\venv_stable\lib\site-packages\torch\_dynamo\variables\functions.py", line 385, in call_function
+    return super().call_function(tx, args, kwargs)
+  File "C:\Users\crock\.aider\SimpleStable\venv_stable\lib\site-packages\torch\_dynamo\variables\functions.py", line 324, in call_function
+    return super().call_function(tx, args, kwargs)
+  File "C:\Users\crock\.aider\SimpleStable\venv_stable\lib\site-packages\torch\_dynamo\variables\functions.py", line 111, in call_function
+    return tx.inline_user_function_return(self, [*self.self_args(), *args], kwargs)
+  File "C:\Users\crock\.aider\SimpleStable\venv_stable\lib\site-packages\torch\_dynamo\symbolic_convert.py", line 836, in inline_user_function_return
+    return InliningInstructionTranslator.inline_call(self, fn, args, kwargs)
+  File "C:\Users\crock\.aider\SimpleStable\venv_stable\lib\site-packages\torch\_dynamo\symbolic_convert.py", line 3011, in inline_call
+    return cls.inline_call_(parent, func, args, kwargs)
+  File "C:\Users\crock\.aider\SimpleStable\venv_stable\lib\site-packages\torch\_dynamo\symbolic_convert.py", line 3139, in inline_call_
+    tracer.run()
+  File "C:\Users\crock\.aider\SimpleStable\venv_stable\lib\site-packages\torch\_dynamo\symbolic_convert.py", line 983, in run
+    while self.step():
+  File "C:\Users\crock\.aider\SimpleStable\venv_stable\lib\site-packages\torch\_dynamo\symbolic_convert.py", line 895, in step
+    self.dispatch_table[inst.opcode](self, inst)
+  File "C:\Users\crock\.aider\SimpleStable\venv_stable\lib\site-packages\torch\_dynamo\symbolic_convert.py", line 582, in wrapper
+    return inner_fn(self, inst)
+  File "C:\Users\crock\.aider\SimpleStable\venv_stable\lib\site-packages\torch\_dynamo\symbolic_convert.py", line 1602, in CALL_FUNCTION
+    self.call_function(fn, args, {})
+  File "C:\Users\crock\.aider\SimpleStable\venv_stable\lib\site-packages\torch\_dynamo\symbolic_convert.py", line 830, in call_function
+    self.push(fn.call_function(self, args, kwargs))  # type: ignore[arg-type]
+  File "C:\Users\crock\.aider\SimpleStable\venv_stable\lib\site-packages\torch\_dynamo\variables\lazy.py", line 156, in realize_and_forward
+    return getattr(self.realize(), name)(*args, **kwargs)
+  File "C:\Users\crock\.aider\SimpleStable\venv_stable\lib\site-packages\torch\_dynamo\variables\nn_module.py", line 899, in call_function
+    return variables.UserFunctionVariable(fn, source=source).call_function(
+  File "C:\Users\crock\.aider\SimpleStable\venv_stable\lib\site-packages\torch\_dynamo\variables\functions.py", line 324, in call_function
+    return super().call_function(tx, args, kwargs)
+  File "C:\Users\crock\.aider\SimpleStable\venv_stable\lib\site-packages\torch\_dynamo\variables\functions.py", line 111, in call_function
+    return tx.inline_user_function_return(self, [*self.self_args(), *args], kwargs)
+  File "C:\Users\crock\.aider\SimpleStable\venv_stable\lib\site-packages\torch\_dynamo\symbolic_convert.py", line 836, in inline_user_function_return
+    return InliningInstructionTranslator.inline_call(self, fn, args, kwargs)
+  File "C:\Users\crock\.aider\SimpleStable\venv_stable\lib\site-packages\torch\_dynamo\symbolic_convert.py", line 3011, in inline_call
+    return cls.inline_call_(parent, func, args, kwargs)
+  File "C:\Users\crock\.aider\SimpleStable\venv_stable\lib\site-packages\torch\_dynamo\symbolic_convert.py", line 3139, in inline_call_
+    tracer.run()
+  File "C:\Users\crock\.aider\SimpleStable\venv_stable\lib\site-packages\torch\_dynamo\symbolic_convert.py", line 983, in run
+    while self.step():
+  File "C:\Users\crock\.aider\SimpleStable\venv_stable\lib\site-packages\torch\_dynamo\symbolic_convert.py", line 895, in step
+    self.dispatch_table[inst.opcode](self, inst)
+  File "C:\Users\crock\.aider\SimpleStable\venv_stable\lib\site-packages\torch\_dynamo\symbolic_convert.py", line 582, in wrapper
+    return inner_fn(self, inst)
+  File "C:\Users\crock\.aider\SimpleStable\venv_stable\lib\site-packages\torch\_dynamo\symbolic_convert.py", line 1602, in CALL_FUNCTION
+    self.call_function(fn, args, {})
+  File "C:\Users\crock\.aider\SimpleStable\venv_stable\lib\site-packages\torch\_dynamo\symbolic_convert.py", line 830, in call_function
+    self.push(fn.call_function(self, args, kwargs))  # type: ignore[arg-type]
+  File "C:\Users\crock\.aider\SimpleStable\venv_stable\lib\site-packages\torch\_dynamo\variables\lazy.py", line 156, in realize_and_forward
+    return getattr(self.realize(), name)(*args, **kwargs)
+  File "C:\Users\crock\.aider\SimpleStable\venv_stable\lib\site-packages\torch\_dynamo\variables\nn_module.py", line 899, in call_function
+    return variables.UserFunctionVariable(fn, source=source).call_function(
+  File "C:\Users\crock\.aider\SimpleStable\venv_stable\lib\site-packages\torch\_dynamo\variables\functions.py", line 324, in call_function
+    return super().call_function(tx, args, kwargs)
+  File "C:\Users\crock\.aider\SimpleStable\venv_stable\lib\site-packages\torch\_dynamo\variables\functions.py", line 111, in call_function
+    return tx.inline_user_function_return(self, [*self.self_args(), *args], kwargs)
+  File "C:\Users\crock\.aider\SimpleStable\venv_stable\lib\site-packages\torch\_dynamo\symbolic_convert.py", line 836, in inline_user_function_return
+    return InliningInstructionTranslator.inline_call(self, fn, args, kwargs)
+  File "C:\Users\crock\.aider\SimpleStable\venv_stable\lib\site-packages\torch\_dynamo\symbolic_convert.py", line 3011, in inline_call
+    return cls.inline_call_(parent, func, args, kwargs)
+  File "C:\Users\crock\.aider\SimpleStable\venv_stable\lib\site-packages\torch\_dynamo\symbolic_convert.py", line 3139, in inline_call_
+    tracer.run()
+  File "C:\Users\crock\.aider\SimpleStable\venv_stable\lib\site-packages\torch\_dynamo\symbolic_convert.py", line 983, in run
+    while self.step():
+  File "C:\Users\crock\.aider\SimpleStable\venv_stable\lib\site-packages\torch\_dynamo\symbolic_convert.py", line 895, in step
+    self.dispatch_table[inst.opcode](self, inst)
+  File "C:\Users\crock\.aider\SimpleStable\venv_stable\lib\site-packages\torch\_dynamo\symbolic_convert.py", line 582, in wrapper
+    return inner_fn(self, inst)
+  File "C:\Users\crock\.aider\SimpleStable\venv_stable\lib\site-packages\torch\_dynamo\symbolic_convert.py", line 1680, in CALL_FUNCTION_EX
+    self.call_function(fn, argsvars.items, kwargsvars)
+  File "C:\Users\crock\.aider\SimpleStable\venv_stable\lib\site-packages\torch\_dynamo\symbolic_convert.py", line 830, in call_function
+    self.push(fn.call_function(self, args, kwargs))  # type: ignore[arg-type]
+  File "C:\Users\crock\.aider\SimpleStable\venv_stable\lib\site-packages\torch\_dynamo\variables\lazy.py", line 156, in realize_and_forward
+    return getattr(self.realize(), name)(*args, **kwargs)
+  File "C:\Users\crock\.aider\SimpleStable\venv_stable\lib\site-packages\torch\_dynamo\variables\functions.py", line 904, in call_function
+    return self.func.call_function(tx, merged_args, merged_kwargs)
+  File "C:\Users\crock\.aider\SimpleStable\venv_stable\lib\site-packages\torch\_dynamo\variables\functions.py", line 324, in call_function
+    return super().call_function(tx, args, kwargs)
+  File "C:\Users\crock\.aider\SimpleStable\venv_stable\lib\site-packages\torch\_dynamo\variables\functions.py", line 111, in call_function
+    return tx.inline_user_function_return(self, [*self.self_args(), *args], kwargs)
+  File "C:\Users\crock\.aider\SimpleStable\venv_stable\lib\site-packages\torch\_dynamo\symbolic_convert.py", line 836, in inline_user_function_return
+    return InliningInstructionTranslator.inline_call(self, fn, args, kwargs)
+  File "C:\Users\crock\.aider\SimpleStable\venv_stable\lib\site-packages\torch\_dynamo\symbolic_convert.py", line 3011, in inline_call
+    return cls.inline_call_(parent, func, args, kwargs)
+  File "C:\Users\crock\.aider\SimpleStable\venv_stable\lib\site-packages\torch\_dynamo\symbolic_convert.py", line 3139, in inline_call_
+    tracer.run()
+  File "C:\Users\crock\.aider\SimpleStable\venv_stable\lib\site-packages\torch\_dynamo\symbolic_convert.py", line 983, in run
+    while self.step():
+  File "C:\Users\crock\.aider\SimpleStable\venv_stable\lib\site-packages\torch\_dynamo\symbolic_convert.py", line 895, in step
+    self.dispatch_table[inst.opcode](self, inst)
+  File "C:\Users\crock\.aider\SimpleStable\venv_stable\lib\site-packages\torch\_dynamo\symbolic_convert.py", line 582, in wrapper
+    return inner_fn(self, inst)
+  File "C:\Users\crock\.aider\SimpleStable\venv_stable\lib\site-packages\torch\_dynamo\symbolic_convert.py", line 1680, in CALL_FUNCTION_EX
+    self.call_function(fn, argsvars.items, kwargsvars)
+  File "C:\Users\crock\.aider\SimpleStable\venv_stable\lib\site-packages\torch\_dynamo\symbolic_convert.py", line 830, in call_function
+    self.push(fn.call_function(self, args, kwargs))  # type: ignore[arg-type]
+  File "C:\Users\crock\.aider\SimpleStable\venv_stable\lib\site-packages\torch\_dynamo\variables\functions.py", line 385, in call_function
+    return super().call_function(tx, args, kwargs)
+  File "C:\Users\crock\.aider\SimpleStable\venv_stable\lib\site-packages\torch\_dynamo\variables\functions.py", line 324, in call_function
+    return super().call_function(tx, args, kwargs)
+  File "C:\Users\crock\.aider\SimpleStable\venv_stable\lib\site-packages\torch\_dynamo\variables\functions.py", line 111, in call_function
+    return tx.inline_user_function_return(self, [*self.self_args(), *args], kwargs)
+  File "C:\Users\crock\.aider\SimpleStable\venv_stable\lib\site-packages\torch\_dynamo\symbolic_convert.py", line 836, in inline_user_function_return
+    return InliningInstructionTranslator.inline_call(self, fn, args, kwargs)
+  File "C:\Users\crock\.aider\SimpleStable\venv_stable\lib\site-packages\torch\_dynamo\symbolic_convert.py", line 3011, in inline_call
+    return cls.inline_call_(parent, func, args, kwargs)
+  File "C:\Users\crock\.aider\SimpleStable\venv_stable\lib\site-packages\torch\_dynamo\symbolic_convert.py", line 3139, in inline_call_
+    tracer.run()
+  File "C:\Users\crock\.aider\SimpleStable\venv_stable\lib\site-packages\torch\_dynamo\symbolic_convert.py", line 983, in run
+    while self.step():
+  File "C:\Users\crock\.aider\SimpleStable\venv_stable\lib\site-packages\torch\_dynamo\symbolic_convert.py", line 895, in step
+    self.dispatch_table[inst.opcode](self, inst)
+  File "C:\Users\crock\.aider\SimpleStable\venv_stable\lib\site-packages\torch\_dynamo\symbolic_convert.py", line 582, in wrapper
+    return inner_fn(self, inst)
+  File "C:\Users\crock\.aider\SimpleStable\venv_stable\lib\site-packages\torch\_dynamo\symbolic_convert.py", line 1602, in CALL_FUNCTION
+    self.call_function(fn, args, {})
+  File "C:\Users\crock\.aider\SimpleStable\venv_stable\lib\site-packages\torch\_dynamo\symbolic_convert.py", line 830, in call_function
+    self.push(fn.call_function(self, args, kwargs))  # type: ignore[arg-type]
+  File "C:\Users\crock\.aider\SimpleStable\venv_stable\lib\site-packages\torch\_dynamo\variables\functions.py", line 385, in call_function
+    return super().call_function(tx, args, kwargs)
+  File "C:\Users\crock\.aider\SimpleStable\venv_stable\lib\site-packages\torch\_dynamo\variables\functions.py", line 324, in call_function
+    return super().call_function(tx, args, kwargs)
+  File "C:\Users\crock\.aider\SimpleStable\venv_stable\lib\site-packages\torch\_dynamo\variables\functions.py", line 111, in call_function
+    return tx.inline_user_function_return(self, [*self.self_args(), *args], kwargs)
+  File "C:\Users\crock\.aider\SimpleStable\venv_stable\lib\site-packages\torch\_dynamo\symbolic_convert.py", line 836, in inline_user_function_return
+    return InliningInstructionTranslator.inline_call(self, fn, args, kwargs)
+  File "C:\Users\crock\.aider\SimpleStable\venv_stable\lib\site-packages\torch\_dynamo\symbolic_convert.py", line 3011, in inline_call
+    return cls.inline_call_(parent, func, args, kwargs)
+  File "C:\Users\crock\.aider\SimpleStable\venv_stable\lib\site-packages\torch\_dynamo\symbolic_convert.py", line 3055, in inline_call_
+    result = InliningInstructionTranslator.check_inlineable(func)
+  File "C:\Users\crock\.aider\SimpleStable\venv_stable\lib\site-packages\torch\_dynamo\symbolic_convert.py", line 3032, in check_inlineable
+    unimplemented(
+  File "C:\Users\crock\.aider\SimpleStable\venv_stable\lib\site-packages\torch\_dynamo\exc.py", line 297, in unimplemented
+    raise Unsupported(msg, case_name=case_name)
+torch._dynamo.exc.Unsupported: 'inline in skipfiles: Mapping.keys | keys C:\Users\crock\AppData\Local\Programs\Python\Python310\lib\_collections_abc.py, skipped according trace_rules.lookup SKIP_DIRS'
+
+from user code:
+   File "C:\Users\crock\.aider\SimpleStable\venv_stable\lib\site-packages\accelerate\hooks.py", line 170, in new_forward
+    output = module._old_forward(*args, **kwargs)
+  File "C:\Users\crock\.aider\SimpleStable\venv_stable\lib\site-packages\diffusers\models\unets\unet_2d_condition.py", line 1143, in forward
+    emb = self.time_embedding(t_emb, timestep_cond)
+  File "C:\Users\crock\.aider\SimpleStable\venv_stable\lib\site-packages\diffusers\models\embeddings.py", line 807, in forward
+    sample = self.linear_1(sample)
+  File "C:\Users\crock\.aider\SimpleStable\venv_stable\lib\site-packages\torch\nn\modules\module.py", line 1747, in _call_impl
+    return forward_call(*args, **kwargs)
+  File "C:\Users\crock\.aider\SimpleStable\venv_stable\lib\site-packages\accelerate\hooks.py", line 165, in new_forward
+    args, kwargs = module._hf_hook.pre_forward(module, *args, **kwargs)
+  File "C:\Users\crock\.aider\SimpleStable\venv_stable\lib\site-packages\accelerate\hooks.py", line 337, in pre_forward
+    if "weight" in name and name.replace("weight", "SCB") in self.weights_map.keys():
+
+Set TORCH_LOGS="+dynamo" and TORCHDYNAMO_VERBOSE=1 for more information
+
+
+You can suppress this exception and fall back to eager by setting:
+    import torch._dynamo
+    torch._dynamo.config.suppress_errors = True
+
+2024-12-09 23:36:29,990 - INFO - Starting Simple Stable Diffusion application...
+2024-12-09 23:36:30,017 - INFO - CUDA Device: NVIDIA GeForce RTX 4060 Laptop GPU
+2024-12-09 23:36:30,017 - INFO - CUDA Version: 12.4
+2024-12-09 23:36:30,017 - INFO - PyTorch Version: 2.5.1+cu124
+2024-12-09 23:36:30,017 - INFO - Total GPU Memory: 8188 MB
+2024-12-09 23:36:30,018 - INFO - Created directory: models/stable-diffusion
+2024-12-09 23:36:30,018 - INFO - Created directory: output_images
+2024-12-09 23:36:30,018 - INFO - Creating UI...
+2024-12-09 23:36:30,169 - INFO - Found models: ['forgottenmixAnimation_v10.safetensors']
+2024-12-09 23:36:30,170 - INFO - Found models: ['forgottenmixAnimation_v10.safetensors']
+2024-12-09 23:36:30,223 - INFO - Attempting to launch on port 7860
+2024-12-09 23:36:30,415 - WARNING - Port 7860 is in use, trying next port
+2024-12-09 23:36:30,416 - INFO - Attempting to launch on port 7861
+2024-12-09 23:36:30,616 - INFO - HTTP Request: GET http://127.0.0.1:7861/gradio_api/startup-events "HTTP/1.1 200 OK"
+2024-12-09 23:36:30,631 - INFO - HTTP Request: HEAD http://127.0.0.1:7861/ "HTTP/1.1 200 OK"
+2024-12-09 23:36:30,763 - INFO - HTTP Request: GET https://api.gradio.app/pkg-version "HTTP/1.1 200 OK"
+2024-12-09 23:37:22,501 - INFO - Starting image generation with parameters:
+2024-12-09 23:37:22,505 - INFO - Model: forgottenmixAnimation_v10.safetensors
+2024-12-09 23:37:22,509 - INFO - Prompt: 3dmm, full body  portrait, The body is standing in the T position, head straight, front facing, facing the viewer, facing front on, looking at the camera, 1girl, slim, skinny body, centered, absurdres, artist name, White blond hair, hair around her face, short hair, hair down, hair straight down, blue eyes, mediaeval rags, Rag clothing, poverty rags clothing, Victorian tramp clothing, extra extra tiny breasts, extremely small tits, nipples point up, puffy nipples, nipples high up on breasts, flat chested, highres, enormous lips, big mouth, nose, samus aran, solo, full body, standing in a desert, standing straight,, ((masterpiece)) 
+2024-12-09 23:37:22,510 - INFO - Steps: 20, Width: 512, Height: 512, CFG: 7, Seed: -1
+2024-12-09 23:37:22,510 - INFO - Initializing StableDiffusionPipeline...
+2024-12-09 23:37:30,681 - INFO - Could not enable xformers: Refer to https://github.com/facebookresearch/xformers for more information on how to install xformers
+2024-12-09 23:37:31,556 - INFO - Enabled CPU offloading
+2024-12-09 23:37:31,644 - INFO - Enabled sequential CPU offloading
+2024-12-09 23:37:31,699 - INFO - Enabled torch compile optimization
+2024-12-09 23:37:31,703 - INFO - Using CUDA for generation
+2024-12-09 23:37:31,704 - INFO - GPU Device: NVIDIA GeForce RTX 4060 Laptop GPU
+2024-12-09 23:37:31,705 - INFO - CUDA Memory Allocated: 0.00 MB
+2024-12-09 23:37:31,705 - INFO - CUDA Memory Reserved: 2.00 MB
+2024-12-09 23:37:31,706 - INFO - Generating image...
+2024-12-09 23:37:32,444 - ERROR - Error generating image: 'inline in skipfiles: Mapping.keys | keys C:\Users\crock\AppData\Local\Programs\Python\Python310\lib\_collections_abc.py, skipped according trace_rules.lookup SKIP_DIRS'
+
+from user code:
+   File "C:\Users\crock\.aider\SimpleStable\venv_stable\lib\site-packages\accelerate\hooks.py", line 170, in new_forward
+    output = module._old_forward(*args, **kwargs)
+  File "C:\Users\crock\.aider\SimpleStable\venv_stable\lib\site-packages\diffusers\models\unets\unet_2d_condition.py", line 1143, in forward
+    emb = self.time_embedding(t_emb, timestep_cond)
+  File "C:\Users\crock\.aider\SimpleStable\venv_stable\lib\site-packages\diffusers\models\embeddings.py", line 807, in forward
+    sample = self.linear_1(sample)
+  File "C:\Users\crock\.aider\SimpleStable\venv_stable\lib\site-packages\torch\nn\modules\module.py", line 1747, in _call_impl
+    return forward_call(*args, **kwargs)
+  File "C:\Users\crock\.aider\SimpleStable\venv_stable\lib\site-packages\accelerate\hooks.py", line 165, in new_forward
+    args, kwargs = module._hf_hook.pre_forward(module, *args, **kwargs)
+  File "C:\Users\crock\.aider\SimpleStable\venv_stable\lib\site-packages\accelerate\hooks.py", line 337, in pre_forward
+    if "weight" in name and name.replace("weight", "SCB") in self.weights_map.keys():
+
+Set TORCH_LOGS="+dynamo" and TORCHDYNAMO_VERBOSE=1 for more information
+
+
+You can suppress this exception and fall back to eager by setting:
+    import torch._dynamo
+    torch._dynamo.config.suppress_errors = True
+Traceback (most recent call last):
+  File "C:\Users\crock\.aider\SimpleStable\app.py", line 110, in generate_image
+    image = pipe(
+  File "C:\Users\crock\.aider\SimpleStable\venv_stable\lib\site-packages\torch\utils\_contextlib.py", line 116, in decorate_context
+    return func(*args, **kwargs)
+  File "C:\Users\crock\.aider\SimpleStable\venv_stable\lib\site-packages\diffusers\pipelines\stable_diffusion\pipeline_stable_diffusion.py", line 1020, in __call__
+    noise_pred = self.unet(
+  File "C:\Users\crock\.aider\SimpleStable\venv_stable\lib\site-packages\torch\nn\modules\module.py", line 1736, in _wrapped_call_impl
+    return self._call_impl(*args, **kwargs)
+  File "C:\Users\crock\.aider\SimpleStable\venv_stable\lib\site-packages\torch\nn\modules\module.py", line 1747, in _call_impl
+    return forward_call(*args, **kwargs)
+  File "C:\Users\crock\.aider\SimpleStable\venv_stable\lib\site-packages\torch\_dynamo\eval_frame.py", line 465, in _fn
+    return fn(*args, **kwargs)
+  File "C:\Users\crock\.aider\SimpleStable\venv_stable\lib\site-packages\torch\nn\modules\module.py", line 1736, in _wrapped_call_impl
+    return self._call_impl(*args, **kwargs)
+  File "C:\Users\crock\.aider\SimpleStable\venv_stable\lib\site-packages\torch\nn\modules\module.py", line 1747, in _call_impl
+    return forward_call(*args, **kwargs)
+  File "C:\Users\crock\.aider\SimpleStable\venv_stable\lib\site-packages\torch\_dynamo\convert_frame.py", line 1269, in __call__
+    return self._torchdynamo_orig_callable(
+  File "C:\Users\crock\.aider\SimpleStable\venv_stable\lib\site-packages\torch\_dynamo\convert_frame.py", line 526, in __call__
+    return _compile(
+  File "C:\Users\crock\.aider\SimpleStable\venv_stable\lib\site-packages\torch\_dynamo\convert_frame.py", line 924, in _compile
+    guarded_code = compile_inner(code, one_graph, hooks, transform)
+  File "C:\Users\crock\.aider\SimpleStable\venv_stable\lib\site-packages\torch\_dynamo\convert_frame.py", line 666, in compile_inner
+    return _compile_inner(code, one_graph, hooks, transform)
+  File "C:\Users\crock\.aider\SimpleStable\venv_stable\lib\site-packages\torch\_utils_internal.py", line 87, in wrapper_function
+    return function(*args, **kwargs)
+  File "C:\Users\crock\.aider\SimpleStable\venv_stable\lib\site-packages\torch\_dynamo\convert_frame.py", line 699, in _compile_inner
+    out_code = transform_code_object(code, transform)
+  File "C:\Users\crock\.aider\SimpleStable\venv_stable\lib\site-packages\torch\_dynamo\bytecode_transformation.py", line 1322, in transform_code_object
+    transformations(instructions, code_options)
+  File "C:\Users\crock\.aider\SimpleStable\venv_stable\lib\site-packages\torch\_dynamo\convert_frame.py", line 219, in _fn
+    return fn(*args, **kwargs)
+  File "C:\Users\crock\.aider\SimpleStable\venv_stable\lib\site-packages\torch\_dynamo\convert_frame.py", line 634, in transform
+    tracer.run()
+  File "C:\Users\crock\.aider\SimpleStable\venv_stable\lib\site-packages\torch\_dynamo\symbolic_convert.py", line 2796, in run
+    super().run()
+  File "C:\Users\crock\.aider\SimpleStable\venv_stable\lib\site-packages\torch\_dynamo\symbolic_convert.py", line 983, in run
+    while self.step():
+  File "C:\Users\crock\.aider\SimpleStable\venv_stable\lib\site-packages\torch\_dynamo\symbolic_convert.py", line 895, in step
+    self.dispatch_table[inst.opcode](self, inst)
+  File "C:\Users\crock\.aider\SimpleStable\venv_stable\lib\site-packages\torch\_dynamo\symbolic_convert.py", line 582, in wrapper
+    return inner_fn(self, inst)
+  File "C:\Users\crock\.aider\SimpleStable\venv_stable\lib\site-packages\torch\_dynamo\symbolic_convert.py", line 1680, in CALL_FUNCTION_EX
+    self.call_function(fn, argsvars.items, kwargsvars)
+  File "C:\Users\crock\.aider\SimpleStable\venv_stable\lib\site-packages\torch\_dynamo\symbolic_convert.py", line 830, in call_function
+    self.push(fn.call_function(self, args, kwargs))  # type: ignore[arg-type]
+  File "C:\Users\crock\.aider\SimpleStable\venv_stable\lib\site-packages\torch\_dynamo\variables\functions.py", line 385, in call_function
+    return super().call_function(tx, args, kwargs)
+  File "C:\Users\crock\.aider\SimpleStable\venv_stable\lib\site-packages\torch\_dynamo\variables\functions.py", line 324, in call_function
+    return super().call_function(tx, args, kwargs)
+  File "C:\Users\crock\.aider\SimpleStable\venv_stable\lib\site-packages\torch\_dynamo\variables\functions.py", line 111, in call_function
+    return tx.inline_user_function_return(self, [*self.self_args(), *args], kwargs)
+  File "C:\Users\crock\.aider\SimpleStable\venv_stable\lib\site-packages\torch\_dynamo\symbolic_convert.py", line 836, in inline_user_function_return
+    return InliningInstructionTranslator.inline_call(self, fn, args, kwargs)
+  File "C:\Users\crock\.aider\SimpleStable\venv_stable\lib\site-packages\torch\_dynamo\symbolic_convert.py", line 3011, in inline_call
+    return cls.inline_call_(parent, func, args, kwargs)
+  File "C:\Users\crock\.aider\SimpleStable\venv_stable\lib\site-packages\torch\_dynamo\symbolic_convert.py", line 3139, in inline_call_
+    tracer.run()
+  File "C:\Users\crock\.aider\SimpleStable\venv_stable\lib\site-packages\torch\_dynamo\symbolic_convert.py", line 983, in run
+    while self.step():
+  File "C:\Users\crock\.aider\SimpleStable\venv_stable\lib\site-packages\torch\_dynamo\symbolic_convert.py", line 895, in step
+    self.dispatch_table[inst.opcode](self, inst)
+  File "C:\Users\crock\.aider\SimpleStable\venv_stable\lib\site-packages\torch\_dynamo\symbolic_convert.py", line 582, in wrapper
+    return inner_fn(self, inst)
+  File "C:\Users\crock\.aider\SimpleStable\venv_stable\lib\site-packages\torch\_dynamo\symbolic_convert.py", line 1602, in CALL_FUNCTION
+    self.call_function(fn, args, {})
+  File "C:\Users\crock\.aider\SimpleStable\venv_stable\lib\site-packages\torch\_dynamo\symbolic_convert.py", line 830, in call_function
+    self.push(fn.call_function(self, args, kwargs))  # type: ignore[arg-type]
+  File "C:\Users\crock\.aider\SimpleStable\venv_stable\lib\site-packages\torch\_dynamo\variables\lazy.py", line 156, in realize_and_forward
+    return getattr(self.realize(), name)(*args, **kwargs)
+  File "C:\Users\crock\.aider\SimpleStable\venv_stable\lib\site-packages\torch\_dynamo\variables\nn_module.py", line 899, in call_function
+    return variables.UserFunctionVariable(fn, source=source).call_function(
+  File "C:\Users\crock\.aider\SimpleStable\venv_stable\lib\site-packages\torch\_dynamo\variables\functions.py", line 324, in call_function
+    return super().call_function(tx, args, kwargs)
+  File "C:\Users\crock\.aider\SimpleStable\venv_stable\lib\site-packages\torch\_dynamo\variables\functions.py", line 111, in call_function
+    return tx.inline_user_function_return(self, [*self.self_args(), *args], kwargs)
+  File "C:\Users\crock\.aider\SimpleStable\venv_stable\lib\site-packages\torch\_dynamo\symbolic_convert.py", line 836, in inline_user_function_return
+    return InliningInstructionTranslator.inline_call(self, fn, args, kwargs)
+  File "C:\Users\crock\.aider\SimpleStable\venv_stable\lib\site-packages\torch\_dynamo\symbolic_convert.py", line 3011, in inline_call
+    return cls.inline_call_(parent, func, args, kwargs)
+  File "C:\Users\crock\.aider\SimpleStable\venv_stable\lib\site-packages\torch\_dynamo\symbolic_convert.py", line 3139, in inline_call_
+    tracer.run()
+  File "C:\Users\crock\.aider\SimpleStable\venv_stable\lib\site-packages\torch\_dynamo\symbolic_convert.py", line 983, in run
+    while self.step():
+  File "C:\Users\crock\.aider\SimpleStable\venv_stable\lib\site-packages\torch\_dynamo\symbolic_convert.py", line 895, in step
+    self.dispatch_table[inst.opcode](self, inst)
+  File "C:\Users\crock\.aider\SimpleStable\venv_stable\lib\site-packages\torch\_dynamo\symbolic_convert.py", line 582, in wrapper
+    return inner_fn(self, inst)
+  File "C:\Users\crock\.aider\SimpleStable\venv_stable\lib\site-packages\torch\_dynamo\symbolic_convert.py", line 1602, in CALL_FUNCTION
+    self.call_function(fn, args, {})
+  File "C:\Users\crock\.aider\SimpleStable\venv_stable\lib\site-packages\torch\_dynamo\symbolic_convert.py", line 830, in call_function
+    self.push(fn.call_function(self, args, kwargs))  # type: ignore[arg-type]
+  File "C:\Users\crock\.aider\SimpleStable\venv_stable\lib\site-packages\torch\_dynamo\variables\lazy.py", line 156, in realize_and_forward
+    return getattr(self.realize(), name)(*args, **kwargs)
+  File "C:\Users\crock\.aider\SimpleStable\venv_stable\lib\site-packages\torch\_dynamo\variables\nn_module.py", line 899, in call_function
+    return variables.UserFunctionVariable(fn, source=source).call_function(
+  File "C:\Users\crock\.aider\SimpleStable\venv_stable\lib\site-packages\torch\_dynamo\variables\functions.py", line 324, in call_function
+    return super().call_function(tx, args, kwargs)
+  File "C:\Users\crock\.aider\SimpleStable\venv_stable\lib\site-packages\torch\_dynamo\variables\functions.py", line 111, in call_function
+    return tx.inline_user_function_return(self, [*self.self_args(), *args], kwargs)
+  File "C:\Users\crock\.aider\SimpleStable\venv_stable\lib\site-packages\torch\_dynamo\symbolic_convert.py", line 836, in inline_user_function_return
+    return InliningInstructionTranslator.inline_call(self, fn, args, kwargs)
+  File "C:\Users\crock\.aider\SimpleStable\venv_stable\lib\site-packages\torch\_dynamo\symbolic_convert.py", line 3011, in inline_call
+    return cls.inline_call_(parent, func, args, kwargs)
+  File "C:\Users\crock\.aider\SimpleStable\venv_stable\lib\site-packages\torch\_dynamo\symbolic_convert.py", line 3139, in inline_call_
+    tracer.run()
+  File "C:\Users\crock\.aider\SimpleStable\venv_stable\lib\site-packages\torch\_dynamo\symbolic_convert.py", line 983, in run
+    while self.step():
+  File "C:\Users\crock\.aider\SimpleStable\venv_stable\lib\site-packages\torch\_dynamo\symbolic_convert.py", line 895, in step
+    self.dispatch_table[inst.opcode](self, inst)
+  File "C:\Users\crock\.aider\SimpleStable\venv_stable\lib\site-packages\torch\_dynamo\symbolic_convert.py", line 582, in wrapper
+    return inner_fn(self, inst)
+  File "C:\Users\crock\.aider\SimpleStable\venv_stable\lib\site-packages\torch\_dynamo\symbolic_convert.py", line 1680, in CALL_FUNCTION_EX
+    self.call_function(fn, argsvars.items, kwargsvars)
+  File "C:\Users\crock\.aider\SimpleStable\venv_stable\lib\site-packages\torch\_dynamo\symbolic_convert.py", line 830, in call_function
+    self.push(fn.call_function(self, args, kwargs))  # type: ignore[arg-type]
+  File "C:\Users\crock\.aider\SimpleStable\venv_stable\lib\site-packages\torch\_dynamo\variables\lazy.py", line 156, in realize_and_forward
+    return getattr(self.realize(), name)(*args, **kwargs)
+  File "C:\Users\crock\.aider\SimpleStable\venv_stable\lib\site-packages\torch\_dynamo\variables\functions.py", line 904, in call_function
+    return self.func.call_function(tx, merged_args, merged_kwargs)
+  File "C:\Users\crock\.aider\SimpleStable\venv_stable\lib\site-packages\torch\_dynamo\variables\functions.py", line 324, in call_function
+    return super().call_function(tx, args, kwargs)
+  File "C:\Users\crock\.aider\SimpleStable\venv_stable\lib\site-packages\torch\_dynamo\variables\functions.py", line 111, in call_function
+    return tx.inline_user_function_return(self, [*self.self_args(), *args], kwargs)
+  File "C:\Users\crock\.aider\SimpleStable\venv_stable\lib\site-packages\torch\_dynamo\symbolic_convert.py", line 836, in inline_user_function_return
+    return InliningInstructionTranslator.inline_call(self, fn, args, kwargs)
+  File "C:\Users\crock\.aider\SimpleStable\venv_stable\lib\site-packages\torch\_dynamo\symbolic_convert.py", line 3011, in inline_call
+    return cls.inline_call_(parent, func, args, kwargs)
+  File "C:\Users\crock\.aider\SimpleStable\venv_stable\lib\site-packages\torch\_dynamo\symbolic_convert.py", line 3139, in inline_call_
+    tracer.run()
+  File "C:\Users\crock\.aider\SimpleStable\venv_stable\lib\site-packages\torch\_dynamo\symbolic_convert.py", line 983, in run
+    while self.step():
+  File "C:\Users\crock\.aider\SimpleStable\venv_stable\lib\site-packages\torch\_dynamo\symbolic_convert.py", line 895, in step
+    self.dispatch_table[inst.opcode](self, inst)
+  File "C:\Users\crock\.aider\SimpleStable\venv_stable\lib\site-packages\torch\_dynamo\symbolic_convert.py", line 582, in wrapper
+    return inner_fn(self, inst)
+  File "C:\Users\crock\.aider\SimpleStable\venv_stable\lib\site-packages\torch\_dynamo\symbolic_convert.py", line 1680, in CALL_FUNCTION_EX
+    self.call_function(fn, argsvars.items, kwargsvars)
+  File "C:\Users\crock\.aider\SimpleStable\venv_stable\lib\site-packages\torch\_dynamo\symbolic_convert.py", line 830, in call_function
+    self.push(fn.call_function(self, args, kwargs))  # type: ignore[arg-type]
+  File "C:\Users\crock\.aider\SimpleStable\venv_stable\lib\site-packages\torch\_dynamo\variables\functions.py", line 385, in call_function
+    return super().call_function(tx, args, kwargs)
+  File "C:\Users\crock\.aider\SimpleStable\venv_stable\lib\site-packages\torch\_dynamo\variables\functions.py", line 324, in call_function
+    return super().call_function(tx, args, kwargs)
+  File "C:\Users\crock\.aider\SimpleStable\venv_stable\lib\site-packages\torch\_dynamo\variables\functions.py", line 111, in call_function
+    return tx.inline_user_function_return(self, [*self.self_args(), *args], kwargs)
+  File "C:\Users\crock\.aider\SimpleStable\venv_stable\lib\site-packages\torch\_dynamo\symbolic_convert.py", line 836, in inline_user_function_return
+    return InliningInstructionTranslator.inline_call(self, fn, args, kwargs)
+  File "C:\Users\crock\.aider\SimpleStable\venv_stable\lib\site-packages\torch\_dynamo\symbolic_convert.py", line 3011, in inline_call
+    return cls.inline_call_(parent, func, args, kwargs)
+  File "C:\Users\crock\.aider\SimpleStable\venv_stable\lib\site-packages\torch\_dynamo\symbolic_convert.py", line 3139, in inline_call_
+    tracer.run()
+  File "C:\Users\crock\.aider\SimpleStable\venv_stable\lib\site-packages\torch\_dynamo\symbolic_convert.py", line 983, in run
+    while self.step():
+  File "C:\Users\crock\.aider\SimpleStable\venv_stable\lib\site-packages\torch\_dynamo\symbolic_convert.py", line 895, in step
+    self.dispatch_table[inst.opcode](self, inst)
+  File "C:\Users\crock\.aider\SimpleStable\venv_stable\lib\site-packages\torch\_dynamo\symbolic_convert.py", line 582, in wrapper
+    return inner_fn(self, inst)
+  File "C:\Users\crock\.aider\SimpleStable\venv_stable\lib\site-packages\torch\_dynamo\symbolic_convert.py", line 1602, in CALL_FUNCTION
+    self.call_function(fn, args, {})
+  File "C:\Users\crock\.aider\SimpleStable\venv_stable\lib\site-packages\torch\_dynamo\symbolic_convert.py", line 830, in call_function
+    self.push(fn.call_function(self, args, kwargs))  # type: ignore[arg-type]
+  File "C:\Users\crock\.aider\SimpleStable\venv_stable\lib\site-packages\torch\_dynamo\variables\functions.py", line 385, in call_function
+    return super().call_function(tx, args, kwargs)
+  File "C:\Users\crock\.aider\SimpleStable\venv_stable\lib\site-packages\torch\_dynamo\variables\functions.py", line 324, in call_function
+    return super().call_function(tx, args, kwargs)
+  File "C:\Users\crock\.aider\SimpleStable\venv_stable\lib\site-packages\torch\_dynamo\variables\functions.py", line 111, in call_function
+    return tx.inline_user_function_return(self, [*self.self_args(), *args], kwargs)
+  File "C:\Users\crock\.aider\SimpleStable\venv_stable\lib\site-packages\torch\_dynamo\symbolic_convert.py", line 836, in inline_user_function_return
+    return InliningInstructionTranslator.inline_call(self, fn, args, kwargs)
+  File "C:\Users\crock\.aider\SimpleStable\venv_stable\lib\site-packages\torch\_dynamo\symbolic_convert.py", line 3011, in inline_call
+    return cls.inline_call_(parent, func, args, kwargs)
+  File "C:\Users\crock\.aider\SimpleStable\venv_stable\lib\site-packages\torch\_dynamo\symbolic_convert.py", line 3055, in inline_call_
+    result = InliningInstructionTranslator.check_inlineable(func)
+  File "C:\Users\crock\.aider\SimpleStable\venv_stable\lib\site-packages\torch\_dynamo\symbolic_convert.py", line 3032, in check_inlineable
+    unimplemented(
+  File "C:\Users\crock\.aider\SimpleStable\venv_stable\lib\site-packages\torch\_dynamo\exc.py", line 297, in unimplemented
+    raise Unsupported(msg, case_name=case_name)
+torch._dynamo.exc.Unsupported: 'inline in skipfiles: Mapping.keys | keys C:\Users\crock\AppData\Local\Programs\Python\Python310\lib\_collections_abc.py, skipped according trace_rules.lookup SKIP_DIRS'
+
+from user code:
+   File "C:\Users\crock\.aider\SimpleStable\venv_stable\lib\site-packages\accelerate\hooks.py", line 170, in new_forward
+    output = module._old_forward(*args, **kwargs)
+  File "C:\Users\crock\.aider\SimpleStable\venv_stable\lib\site-packages\diffusers\models\unets\unet_2d_condition.py", line 1143, in forward
+    emb = self.time_embedding(t_emb, timestep_cond)
+  File "C:\Users\crock\.aider\SimpleStable\venv_stable\lib\site-packages\diffusers\models\embeddings.py", line 807, in forward
+    sample = self.linear_1(sample)
+  File "C:\Users\crock\.aider\SimpleStable\venv_stable\lib\site-packages\torch\nn\modules\module.py", line 1747, in _call_impl
+    return forward_call(*args, **kwargs)
+  File "C:\Users\crock\.aider\SimpleStable\venv_stable\lib\site-packages\accelerate\hooks.py", line 165, in new_forward
+    args, kwargs = module._hf_hook.pre_forward(module, *args, **kwargs)
+  File "C:\Users\crock\.aider\SimpleStable\venv_stable\lib\site-packages\accelerate\hooks.py", line 337, in pre_forward
+    if "weight" in name and name.replace("weight", "SCB") in self.weights_map.keys():
+
+Set TORCH_LOGS="+dynamo" and TORCHDYNAMO_VERBOSE=1 for more information
+
+
+You can suppress this exception and fall back to eager by setting:
+    import torch._dynamo
+    torch._dynamo.config.suppress_errors = True
+
+2024-12-09 23:43:43,398 - INFO - Starting Simple Stable Diffusion application...
+2024-12-09 23:43:43,438 - INFO - CUDA Device: NVIDIA GeForce RTX 4060 Laptop GPU
+2024-12-09 23:43:43,439 - INFO - CUDA Version: 12.4
+2024-12-09 23:43:43,439 - INFO - PyTorch Version: 2.5.1+cu124
+2024-12-09 23:43:43,439 - INFO - Total GPU Memory: 8188 MB
+2024-12-09 23:43:43,439 - INFO - Created directory: models/stable-diffusion
+2024-12-09 23:43:43,439 - INFO - Created directory: output_images
+2024-12-09 23:43:43,439 - INFO - Creating UI...
+2024-12-09 23:43:43,588 - INFO - Found models: ['forgottenmixAnimation_v10.safetensors']
+2024-12-09 23:43:43,589 - INFO - Found models: ['forgottenmixAnimation_v10.safetensors']
+2024-12-09 23:43:43,670 - INFO - Attempting to launch on port 7860
+2024-12-09 23:43:43,860 - WARNING - Port 7860 is in use, trying next port
+2024-12-09 23:43:43,860 - INFO - Attempting to launch on port 7861
+2024-12-09 23:43:44,004 - WARNING - Port 7861 is in use, trying next port
+2024-12-09 23:43:44,004 - INFO - Attempting to launch on port 7862
+2024-12-09 23:43:44,191 - INFO - HTTP Request: GET https://api.gradio.app/pkg-version "HTTP/1.1 200 OK"
+2024-12-09 23:43:44,201 - INFO - HTTP Request: GET http://127.0.0.1:7862/gradio_api/startup-events "HTTP/1.1 200 OK"
+2024-12-09 23:43:44,237 - INFO - HTTP Request: HEAD http://127.0.0.1:7862/ "HTTP/1.1 200 OK"
+2024-12-09 23:44:15,734 - INFO - Starting image generation with parameters:
+2024-12-09 23:44:15,734 - INFO - Model: forgottenmixAnimation_v10.safetensors
+2024-12-09 23:44:15,734 - INFO - Prompt: 3dmm, full body  portrait, The body is standing in the T position, head straight, front facing, facing the viewer, facing front on, looking at the camera, 1girl, slim, skinny body, centered, absurdres, artist name, White blond hair, hair around her face, short hair, hair down, hair straight down, blue eyes, mediaeval rags, Rag clothing, poverty rags clothing, Victorian tramp clothing, extra extra tiny breasts, extremely small tits, nipples point up, puffy nipples, nipples high up on breasts, flat chested, highres, enormous lips, big mouth, nose, samus aran, solo, full body, standing in a desert, standing straight,, ((masterpiece)) 
+
+2024-12-09 23:44:15,734 - INFO - Steps: 20, Width: 512, Height: 512, CFG: 7, Seed: -1
+2024-12-09 23:44:15,735 - INFO - Initializing StableDiffusionPipeline...
+2024-12-09 23:44:22,762 - INFO - Could not enable xformers: Refer to https://github.com/facebookresearch/xformers for more information on how to install xformers
+2024-12-09 23:44:23,683 - INFO - Enabled CPU offloading
+2024-12-09 23:44:23,780 - INFO - Enabled sequential CPU offloading
+2024-12-09 23:44:23,781 - INFO - CUDA Memory Allocated: 0.00 MB
+2024-12-09 23:44:23,781 - INFO - CUDA Memory Reserved: 2.00 MB
+2024-12-09 23:44:23,781 - INFO - Using CUDA for generation
+2024-12-09 23:44:23,783 - INFO - GPU Device: NVIDIA GeForce RTX 4060 Laptop GPU
+2024-12-09 23:44:23,783 - INFO - CUDA Memory Allocated: 0.00 MB
+2024-12-09 23:44:23,783 - INFO - CUDA Memory Reserved: 2.00 MB
+2024-12-09 23:44:23,784 - INFO - Generating image...
+2024-12-09 23:44:43,760 - INFO - Final CUDA Memory Allocated: 8.25 MB
+2024-12-09 23:44:43,761 - INFO - Final CUDA Memory Reserved: 22.00 MB
+2024-12-09 23:44:43,885 - INFO - Image saved to: output_images\generated_-1.png
+2024-12-09 23:45:06,934 - INFO - Starting image generation with parameters:
+2024-12-09 23:45:06,935 - INFO - Model: forgottenmixAnimation_v10.safetensors
+2024-12-09 23:45:06,935 - INFO - Prompt: 3dmm, full body  portrait, The body is standing in the T position, head straight, front facing, facing the viewer, facing front on, looking at the camera, 1girl, slim, skinny body, centered, absurdres, artist name, White blond hair, hair around her face, short hair, hair down, hair straight down, blue eyes, mediaeval rags, Rag clothing, poverty rags clothing, Victorian tramp clothing, extra extra tiny breasts, extremely small tits, nipples point up, puffy nipples, nipples high up on breasts, flat chested, highres, enormous lips, big mouth, nose, samus aran, solo, full body, standing in a desert, standing straight,, ((masterpiece)) 
+
+2024-12-09 23:45:06,937 - INFO - Steps: 20, Width: 512, Height: 512, CFG: 7, Seed: 4281296450
+2024-12-09 23:45:06,938 - INFO - Initializing StableDiffusionPipeline...
+2024-12-09 23:45:17,101 - INFO - Could not enable xformers: Refer to https://github.com/facebookresearch/xformers for more information on how to install xformers
+2024-12-09 23:45:17,947 - INFO - Enabled CPU offloading
+2024-12-09 23:45:18,034 - INFO - Enabled sequential CPU offloading
+2024-12-09 23:45:18,035 - INFO - CUDA Memory Allocated: 8.13 MB
+2024-12-09 23:45:18,036 - INFO - CUDA Memory Reserved: 22.00 MB
+2024-12-09 23:45:18,036 - INFO - Using CUDA for generation
+2024-12-09 23:45:18,038 - INFO - GPU Device: NVIDIA GeForce RTX 4060 Laptop GPU
+2024-12-09 23:45:18,038 - INFO - CUDA Memory Allocated: 8.13 MB
+2024-12-09 23:45:18,038 - INFO - CUDA Memory Reserved: 22.00 MB
+2024-12-09 23:45:18,040 - INFO - Using seed: 4281296450
+2024-12-09 23:45:18,040 - INFO - Generating image...
+2024-12-09 23:45:36,073 - INFO - Final CUDA Memory Allocated: 8.25 MB
+2024-12-09 23:45:36,073 - INFO - Final CUDA Memory Reserved: 22.00 MB
+2024-12-09 23:45:36,183 - INFO - Image saved to: output_images\generated_4281296450.png
+2024-12-09 23:45:50,587 - INFO - Starting image generation with parameters:
+2024-12-09 23:45:50,588 - INFO - Model: forgottenmixAnimation_v10.safetensors
+2024-12-09 23:45:50,589 - INFO - Prompt: 3dmm, full body  portrait, The body is standing in the T position, head straight, front facing, facing the viewer, facing front on, looking at the camera, 1girl, slim, skinny body, centered, absurdres, artist name, White blond hair, hair around her face, short hair, hair down, hair straight down, blue eyes, mediaeval rags, Rag clothing, poverty rags clothing, Victorian tramp clothing, extra extra tiny breasts, extremely small tits, nipples point up, puffy nipples, nipples high up on breasts, flat chested, highres, enormous lips, big mouth, nose, samus aran, solo, full body, standing in a desert, standing straight,, ((masterpiece)) 
+
+2024-12-09 23:45:50,590 - INFO - Steps: 20, Width: 720, Height: 1080, CFG: 7, Seed: 4281296450
+2024-12-09 23:45:50,590 - INFO - Initializing StableDiffusionPipeline...
+2024-12-09 23:46:02,457 - INFO - Could not enable xformers: Refer to https://github.com/facebookresearch/xformers for more information on how to install xformers
+2024-12-09 23:46:05,994 - INFO - Enabled CPU offloading
+2024-12-09 23:46:06,580 - INFO - Enabled sequential CPU offloading
+2024-12-09 23:46:06,582 - INFO - CUDA Memory Allocated: 8.13 MB
+2024-12-09 23:46:06,583 - INFO - CUDA Memory Reserved: 22.00 MB
+2024-12-09 23:46:06,583 - INFO - Using CUDA for generation
+2024-12-09 23:46:06,584 - INFO - GPU Device: NVIDIA GeForce RTX 4060 Laptop GPU
+2024-12-09 23:46:06,585 - INFO - CUDA Memory Allocated: 8.13 MB
+2024-12-09 23:46:06,588 - INFO - CUDA Memory Reserved: 22.00 MB
+2024-12-09 23:46:06,589 - INFO - Using seed: 4281296450
+2024-12-09 23:46:06,590 - INFO - Generating image...
+2024-12-09 23:47:15,181 - INFO - Final CUDA Memory Allocated: 8.50 MB
+2024-12-09 23:47:15,181 - INFO - Final CUDA Memory Reserved: 22.00 MB
+2024-12-09 23:47:15,512 - INFO - Image saved to: output_images\generated_4281296450.png
+2024-12-09 23:50:53,548 - INFO - Starting Simple Stable Diffusion application...
+2024-12-09 23:50:53,597 - INFO - CUDA Device: NVIDIA GeForce RTX 4060 Laptop GPU
+2024-12-09 23:50:53,597 - INFO - CUDA Version: 12.4
+2024-12-09 23:50:53,597 - INFO - PyTorch Version: 2.5.1+cu124
+2024-12-09 23:50:53,597 - INFO - Total GPU Memory: 8188 MB
+2024-12-09 23:50:53,598 - INFO - Created directory: models/stable-diffusion
+2024-12-09 23:50:53,598 - INFO - Created directory: output_images
+2024-12-09 23:50:53,598 - INFO - Creating UI...
+2024-12-09 23:50:53,736 - INFO - Found models: ['forgottenmixAnimation_v10.safetensors', 'Ket_Tova_+Lora.safetensors']
+2024-12-09 23:50:53,738 - INFO - Found models: ['forgottenmixAnimation_v10.safetensors', 'Ket_Tova_+Lora.safetensors']
+2024-12-09 23:50:53,791 - INFO - Attempting to launch on port 7860
+2024-12-09 23:50:53,991 - WARNING - Port 7860 is in use, trying next port
+2024-12-09 23:50:53,992 - INFO - Attempting to launch on port 7861
+2024-12-09 23:50:54,150 - WARNING - Port 7861 is in use, trying next port
+2024-12-09 23:50:54,150 - INFO - Attempting to launch on port 7862
+2024-12-09 23:50:54,314 - WARNING - Port 7862 is in use, trying next port
+2024-12-09 23:50:54,323 - INFO - Attempting to launch on port 7863
+2024-12-09 23:50:54,346 - INFO - HTTP Request: GET https://api.gradio.app/pkg-version "HTTP/1.1 200 OK"
+2024-12-09 23:50:54,540 - INFO - HTTP Request: GET http://127.0.0.1:7863/gradio_api/startup-events "HTTP/1.1 200 OK"
+2024-12-09 23:50:54,565 - INFO - HTTP Request: HEAD http://127.0.0.1:7863/ "HTTP/1.1 200 OK"
+2024-12-09 23:51:31,747 - INFO - Starting image generation with parameters:
+2024-12-09 23:51:31,748 - INFO - Model: Ket_Tova_+Lora.safetensors
+2024-12-09 23:51:31,748 - INFO - Prompt: 3dmm, full body  portrait, The body is standing in the T position, head straight, front facing, facing the viewer, facing front on, looking at the camera, 1girl, slim, skinny body, centered, absurdres, artist name, White blond hair, hair around her face, short hair, hair down, hair straight down, blue eyes, mediaeval rags, Rag clothing, poverty rags clothing, Victorian tramp clothing, extra extra tiny breasts, extremely small tits, nipples point up, puffy nipples, nipples high up on breasts, flat chested, highres, enormous lips, big mouth, nose, samus aran, solo, full body, standing in a desert, standing straight,, ((masterpiece)) 
+2024-12-09 23:51:31,748 - INFO - Steps: 20, Width: 512, Height: 512, CFG: 7, Seed: -1
+2024-12-09 23:51:31,748 - INFO - Initializing StableDiffusionPipeline...
+2024-12-09 23:51:35,398 - INFO - Could not enable xformers: Refer to https://github.com/facebookresearch/xformers for more information on how to install xformers
+2024-12-09 23:51:36,152 - INFO - Enabled CPU offloading
+2024-12-09 23:51:36,233 - INFO - Enabled sequential CPU offloading
+2024-12-09 23:51:36,233 - INFO - CUDA Memory Allocated: 0.00 MB
+2024-12-09 23:51:36,233 - INFO - CUDA Memory Reserved: 2.00 MB
+2024-12-09 23:51:36,233 - INFO - Using CUDA for generation
+2024-12-09 23:51:36,235 - INFO - GPU Device: NVIDIA GeForce RTX 4060 Laptop GPU
+2024-12-09 23:51:36,236 - INFO - CUDA Memory Allocated: 0.00 MB
+2024-12-09 23:51:36,236 - INFO - CUDA Memory Reserved: 2.00 MB
+2024-12-09 23:51:36,236 - INFO - Generating image...
+2024-12-09 23:51:54,080 - INFO - Final CUDA Memory Allocated: 8.25 MB
+2024-12-09 23:51:54,080 - INFO - Final CUDA Memory Reserved: 22.00 MB
+2024-12-09 23:51:54,177 - INFO - Image saved to: output_images\generated_-1.png
+2024-12-09 23:52:10,024 - INFO - Starting image generation with parameters:
+2024-12-09 23:52:10,025 - INFO - Model: Ket_Tova_+Lora.safetensors
+2024-12-09 23:52:10,027 - INFO - Prompt: 3dmm, full body  portrait, The body is standing in the T position, head straight, front facing, facing the viewer, facing front on, looking at the camera, 1girl, slim, skinny body, centered, absurdres, artist name, White blond hair, hair around her face, short hair, hair down, hair straight down, blue eyes, mediaeval rags, Rag clothing, poverty rags clothing, Victorian tramp clothing, extra extra tiny breasts, extremely small tits, nipples point up, puffy nipples, nipples high up on breasts, flat chested, highres, enormous lips, big mouth, nose, samus aran, solo, full body, standing in a desert, standing straight,, ((masterpiece)) 
+2024-12-09 23:52:10,028 - INFO - Steps: 20, Width: 720, Height: 1080, CFG: 7, Seed: -1
+2024-12-09 23:52:10,029 - INFO - Initializing StableDiffusionPipeline...
+2024-12-09 23:52:19,571 - INFO - Could not enable xformers: Refer to https://github.com/facebookresearch/xformers for more information on how to install xformers
+2024-12-09 23:52:23,141 - INFO - Enabled CPU offloading
+2024-12-09 23:52:23,670 - INFO - Enabled sequential CPU offloading
+2024-12-09 23:52:23,673 - INFO - CUDA Memory Allocated: 8.13 MB
+2024-12-09 23:52:23,674 - INFO - CUDA Memory Reserved: 22.00 MB
+2024-12-09 23:52:23,674 - INFO - Using CUDA for generation
+2024-12-09 23:52:23,674 - INFO - GPU Device: NVIDIA GeForce RTX 4060 Laptop GPU
+2024-12-09 23:52:23,674 - INFO - CUDA Memory Allocated: 8.13 MB
+2024-12-09 23:52:23,676 - INFO - CUDA Memory Reserved: 22.00 MB
+2024-12-09 23:52:23,677 - INFO - Generating image...
+2024-12-09 23:53:56,446 - INFO - Final CUDA Memory Allocated: 16.62 MB
+2024-12-09 23:53:56,447 - INFO - Final CUDA Memory Reserved: 22.00 MB
+2024-12-09 23:53:58,330 - INFO - Image saved to: output_images\generated_-1.png
+2024-12-10 00:05:56,349 - INFO - Starting Simple Stable Diffusion application...
+2024-12-10 00:05:56,394 - INFO - CUDA Device: NVIDIA GeForce RTX 4060 Laptop GPU
+2024-12-10 00:05:56,394 - INFO - CUDA Version: 12.4
+2024-12-10 00:05:56,394 - INFO - PyTorch Version: 2.5.1+cu124
+2024-12-10 00:05:56,394 - INFO - Total GPU Memory: 8188 MB
+2024-12-10 00:05:56,395 - INFO - Created directory: models/stable-diffusion
+2024-12-10 00:05:56,395 - INFO - Created directory: models/lora
+2024-12-10 00:05:56,395 - INFO - Created directory: output_images
+2024-12-10 00:05:56,395 - INFO - Creating UI...
+2024-12-10 00:05:56,543 - INFO - Found models: ['forgottenmixAnimation_v10.safetensors', 'Ket_Tova_+Lora.safetensors']
+2024-12-10 00:05:56,544 - INFO - Found models: ['forgottenmixAnimation_v10.safetensors', 'Ket_Tova_+Lora.safetensors']
+2024-12-10 00:05:56,545 - INFO - Found LoRAs: No LoRAs found
+2024-12-10 00:05:56,613 - INFO - Attempting to launch on port 7860
+2024-12-10 00:05:56,842 - WARNING - Port 7860 is in use, trying next port
+2024-12-10 00:05:56,842 - INFO - Attempting to launch on port 7861
+2024-12-10 00:05:57,030 - INFO - HTTP Request: GET http://127.0.0.1:7861/gradio_api/startup-events "HTTP/1.1 200 OK"
+2024-12-10 00:05:57,066 - INFO - HTTP Request: HEAD http://127.0.0.1:7861/ "HTTP/1.1 200 OK"
+2024-12-10 00:05:57,143 - INFO - HTTP Request: GET https://api.gradio.app/pkg-version "HTTP/1.1 200 OK"
+2024-12-10 00:07:27,286 - INFO - Starting image generation with parameters:
+2024-12-10 00:07:27,286 - INFO - Model: Ket_Tova_+Lora.safetensors
+2024-12-10 00:07:27,286 - INFO - Scheduler: DPM++ 2M Karras
+2024-12-10 00:07:27,287 - INFO - LoRA: None (alpha: 0.75)
+2024-12-10 00:07:27,287 - INFO - Prompt: 3dmm, full body  portrait, The body is standing in the T position, head straight, front facing, facing the viewer, facing front on, looking at the camera, 1girl, slim, skinny body, centered, absurdres, artist name, White blond hair, hair around her face, short hair, hair down, hair straight down, blue eyes, mediaeval rags, Rag clothing, poverty rags clothing, Victorian tramp clothing, extra extra tiny breasts, extremely small tits, nipples point up, puffy nipples, nipples high up on breasts, flat chested, highres, enormous lips, big mouth, nose, samus aran, solo, full body, standing in a desert, standing straight,, ((masterpiece))
+2024-12-10 00:07:27,287 - INFO - Steps: 20, Width: 720, Height: 1080, CFG: 7, Seed: -1
+2024-12-10 00:07:27,288 - INFO - Denoising Strength: 1
+2024-12-10 00:07:27,288 - INFO - Initializing StableDiffusionPipeline...
+2024-12-10 00:07:27,289 - ERROR - Error generating image: karras is not implemented for <class 'diffusers.schedulers.scheduling_dpmsolver_multistep.DPMSolverMultistepScheduler'>
+Traceback (most recent call last):
+  File "C:\Users\crock\.aider\SimpleStable\app.py", line 177, in generate_image
+    scheduler = SCHEDULERS[scheduler_name]()
+  File "C:\Users\crock\.aider\SimpleStable\app.py", line 39, in <lambda>
+    "DPM++ 2M Karras": lambda: DPMSolverMultistepScheduler(beta_schedule="karras"),
+  File "C:\Users\crock\.aider\SimpleStable\venv_stable\lib\site-packages\diffusers\configuration_utils.py", line 665, in inner_init
+    init(self, *args, **init_kwargs)
+  File "C:\Users\crock\.aider\SimpleStable\venv_stable\lib\site-packages\diffusers\schedulers\scheduling_dpmsolver_multistep.py", line 249, in __init__
+    raise NotImplementedError(f"{beta_schedule} is not implemented for {self.__class__}")
+NotImplementedError: karras is not implemented for <class 'diffusers.schedulers.scheduling_dpmsolver_multistep.DPMSolverMultistepScheduler'>
+2024-12-10 00:11:12,167 - INFO - Starting Simple Stable Diffusion application...
+2024-12-10 00:11:12,186 - INFO - CUDA Device: NVIDIA GeForce RTX 4060 Laptop GPU
+2024-12-10 00:11:12,186 - INFO - CUDA Version: 12.4
+2024-12-10 00:11:12,186 - INFO - PyTorch Version: 2.5.1+cu124
+2024-12-10 00:11:12,186 - INFO - Total GPU Memory: 8188 MB
+2024-12-10 00:11:12,186 - INFO - Created directory: models/stable-diffusion
+2024-12-10 00:11:12,187 - INFO - Created directory: models/lora
+2024-12-10 00:11:12,187 - INFO - Created directory: output_images
+2024-12-10 00:11:12,187 - INFO - Creating UI...
+2024-12-10 00:11:12,335 - INFO - Found models: ['forgottenmixAnimation_v10.safetensors', 'Ket_Tova_+Lora.safetensors']
+2024-12-10 00:11:12,336 - INFO - Found models: ['forgottenmixAnimation_v10.safetensors', 'Ket_Tova_+Lora.safetensors']
+2024-12-10 00:11:12,338 - INFO - Found LoRAs: No LoRAs found
+2024-12-10 00:11:12,424 - INFO - Attempting to launch on port 7860
+2024-12-10 00:11:12,631 - WARNING - Port 7860 is in use, trying next port
+2024-12-10 00:11:12,632 - INFO - Attempting to launch on port 7861
+2024-12-10 00:11:12,773 - WARNING - Port 7861 is in use, trying next port
+2024-12-10 00:11:12,774 - INFO - Attempting to launch on port 7862
+2024-12-10 00:11:12,928 - WARNING - Port 7862 is in use, trying next port
+2024-12-10 00:11:12,928 - INFO - HTTP Request: GET https://api.gradio.app/pkg-version "HTTP/1.1 200 OK"
+2024-12-10 00:11:12,929 - INFO - Attempting to launch on port 7863
+2024-12-10 00:11:13,109 - INFO - HTTP Request: GET http://127.0.0.1:7863/gradio_api/startup-events "HTTP/1.1 200 OK"
+2024-12-10 00:11:13,152 - INFO - HTTP Request: HEAD http://127.0.0.1:7863/ "HTTP/1.1 200 OK"
+2024-12-10 00:11:46,886 - INFO - Starting image generation with parameters:
+2024-12-10 00:11:46,886 - INFO - Model: Ket_Tova_+Lora.safetensors
+2024-12-10 00:11:46,887 - INFO - Scheduler: DPM++ 2M
+2024-12-10 00:11:46,887 - INFO - LoRA: None (alpha: 0.75)
+2024-12-10 00:11:46,887 - INFO - Prompt: 3dmm, full body  portrait, The body is standing in the T position, head straight, front facing, facing the viewer, facing front on, looking at the camera, 1girl, slim, skinny body, centered, absurdres, artist name, White blond hair, hair around her face, short hair, hair down, hair straight down, blue eyes, mediaeval rags, Rag clothing, poverty rags clothing, Victorian tramp clothing, extra extra tiny breasts, extremely small tits, nipples point up, puffy nipples, nipples high up on breasts, flat chested, highres, enormous lips, big mouth, nose, samus aran, solo, full body, standing in a desert, standing straight,, ((masterpiece))
+2024-12-10 00:11:46,888 - INFO - Steps: 20, Width: 720, Height: 1080, CFG: 7, Seed: -1
+2024-12-10 00:11:46,888 - INFO - Denoising Strength: 1
+2024-12-10 00:11:46,888 - INFO - Initializing StableDiffusionPipeline...
+2024-12-10 00:11:51,136 - INFO - Could not enable xformers: Refer to https://github.com/facebookresearch/xformers for more information on how to install xformers
+2024-12-10 00:11:53,051 - INFO - Enabled CPU offloading
+2024-12-10 00:11:53,139 - INFO - Enabled sequential CPU offloading
+2024-12-10 00:11:53,140 - INFO - CUDA Memory Allocated: 0.00 MB
+2024-12-10 00:11:53,140 - INFO - CUDA Memory Reserved: 2.00 MB
+2024-12-10 00:11:53,140 - INFO - Using CUDA for generation
+2024-12-10 00:11:53,140 - INFO - GPU Device: NVIDIA GeForce RTX 4060 Laptop GPU
+2024-12-10 00:11:53,141 - INFO - CUDA Memory Allocated: 0.00 MB
+2024-12-10 00:11:53,141 - INFO - CUDA Memory Reserved: 2.00 MB
+2024-12-10 00:11:53,144 - INFO - Generating image...
+2024-12-10 00:12:31,518 - INFO - Final CUDA Memory Allocated: 8.31 MB
+2024-12-10 00:12:31,519 - INFO - Final CUDA Memory Reserved: 22.00 MB
+2024-12-10 00:12:31,683 - INFO - Image saved to: output_images\generated_-1.png
+2024-12-10 00:14:54,728 - INFO - Starting image generation with parameters:
+2024-12-10 00:14:54,729 - INFO - Model: Ket_Tova_+Lora.safetensors
+2024-12-10 00:14:54,729 - INFO - Scheduler: DPM++ 2M
+2024-12-10 00:14:54,731 - INFO - LoRA: None (alpha: 0.75)
+2024-12-10 00:14:54,731 - INFO - Prompt: 3dmm, full body  portrait, The body is standing in the T position, head straight, front facing, facing the viewer, facing front on, looking at the camera, 1girl, slim, skinny body, centered, absurdres, artist name, White blond hair, hair around her face, short hair, hair down, hair straight down, blue eyes, mediaeval rags, Rag clothing, poverty rags clothing, Victorian tramp clothing, extra extra tiny breasts, extremely small tits, nipples point up, puffy nipples, nipples high up on breasts, flat chested, highres, enormous lips, big mouth, nose, samus aran, solo, full body, standing in a desert, standing straight,, ((masterpiece))
+2024-12-10 00:14:54,732 - INFO - Steps: 20, Width: 720, Height: 1080, CFG: 7, Seed: 4281296450
+2024-12-10 00:14:54,733 - INFO - Denoising Strength: 1
+2024-12-10 00:14:54,735 - INFO - Initializing StableDiffusionPipeline...
+2024-12-10 00:14:59,553 - INFO - Could not enable xformers: Refer to https://github.com/facebookresearch/xformers for more information on how to install xformers
+2024-12-10 00:15:03,081 - INFO - Enabled CPU offloading
+2024-12-10 00:15:03,465 - INFO - Enabled sequential CPU offloading
+2024-12-10 00:15:03,467 - INFO - CUDA Memory Allocated: 8.13 MB
+2024-12-10 00:15:03,468 - INFO - CUDA Memory Reserved: 22.00 MB
+2024-12-10 00:15:03,469 - INFO - Using CUDA for generation
+2024-12-10 00:15:03,470 - INFO - GPU Device: NVIDIA GeForce RTX 4060 Laptop GPU
+2024-12-10 00:15:03,472 - INFO - CUDA Memory Allocated: 8.13 MB
+2024-12-10 00:15:03,473 - INFO - CUDA Memory Reserved: 22.00 MB
+2024-12-10 00:15:03,474 - INFO - Using seed: 4281296450
+2024-12-10 00:15:03,475 - INFO - Generating image...
+2024-12-10 00:16:17,811 - INFO - Final CUDA Memory Allocated: 8.31 MB
+2024-12-10 00:16:17,812 - INFO - Final CUDA Memory Reserved: 22.00 MB
+2024-12-10 00:16:18,295 - INFO - Image saved to: output_images\generated_4281296450.png
+2024-12-10 00:16:36,376 - INFO - Starting image generation with parameters:
+2024-12-10 00:16:36,378 - INFO - Model: Ket_Tova_+Lora.safetensors
+2024-12-10 00:16:36,378 - INFO - Scheduler: DPM2
+2024-12-10 00:16:36,378 - INFO - LoRA: None (alpha: 0.75)
+2024-12-10 00:16:36,378 - INFO - Prompt: 3dmm, full body  portrait, The body is standing in the T position, head straight, front facing, facing the viewer, facing front on, looking at the camera, 1girl, slim, skinny body, centered, absurdres, artist name, White blond hair, hair around her face, short hair, hair down, hair straight down, blue eyes, mediaeval rags, Rag clothing, poverty rags clothing, Victorian tramp clothing, extra extra tiny breasts, extremely small tits, nipples point up, puffy nipples, nipples high up on breasts, flat chested, highres, enormous lips, big mouth, nose, samus aran, solo, full body, standing in a desert, standing straight,, ((masterpiece))
+2024-12-10 00:16:36,379 - INFO - Steps: 20, Width: 720, Height: 1080, CFG: 7, Seed: 4281296450
+2024-12-10 00:16:36,380 - INFO - Denoising Strength: 1
+2024-12-10 00:16:36,380 - INFO - Initializing StableDiffusionPipeline...
+2024-12-10 00:16:44,962 - INFO - Could not enable xformers: Refer to https://github.com/facebookresearch/xformers for more information on how to install xformers
+2024-12-10 00:16:47,952 - INFO - Enabled CPU offloading
+2024-12-10 00:16:48,288 - INFO - Enabled sequential CPU offloading
+2024-12-10 00:16:48,289 - INFO - CUDA Memory Allocated: 8.13 MB
+2024-12-10 00:16:48,290 - INFO - CUDA Memory Reserved: 22.00 MB
+2024-12-10 00:16:48,291 - INFO - Using CUDA for generation
+2024-12-10 00:16:48,292 - INFO - GPU Device: NVIDIA GeForce RTX 4060 Laptop GPU
+2024-12-10 00:16:48,293 - INFO - CUDA Memory Allocated: 8.13 MB
+2024-12-10 00:16:48,294 - INFO - CUDA Memory Reserved: 22.00 MB
+2024-12-10 00:16:48,295 - INFO - Using seed: 4281296450
+2024-12-10 00:16:48,295 - INFO - Generating image...
+2024-12-10 00:18:52,618 - INFO - Final CUDA Memory Allocated: 8.23 MB
+2024-12-10 00:18:52,618 - INFO - Final CUDA Memory Reserved: 22.00 MB
+2024-12-10 00:18:52,851 - INFO - Image saved to: output_images\generated_4281296450.png
+2024-12-10 00:21:59,679 - INFO - Starting Simple Stable Diffusion application...
+2024-12-10 00:21:59,704 - INFO - CUDA Device: NVIDIA GeForce RTX 4060 Laptop GPU
+2024-12-10 00:21:59,704 - INFO - CUDA Version: 12.4
+2024-12-10 00:21:59,704 - INFO - PyTorch Version: 2.5.1+cu124
+2024-12-10 00:21:59,704 - INFO - Total GPU Memory: 8188 MB
+2024-12-10 00:21:59,706 - INFO - Created directory: models/stable-diffusion
+2024-12-10 00:21:59,706 - INFO - Created directory: models/lora
+2024-12-10 00:21:59,706 - INFO - Created directory: output_images
+2024-12-10 00:21:59,706 - INFO - Creating UI...
+2024-12-10 00:21:59,844 - INFO - Found models: ['forgottenmixAnimation_v10.safetensors', 'Ket_Tova_+Lora.safetensors']
+2024-12-10 00:21:59,844 - INFO - Found models: ['forgottenmixAnimation_v10.safetensors', 'Ket_Tova_+Lora.safetensors']
+2024-12-10 00:21:59,847 - INFO - Found LoRAs: No LoRAs found
+2024-12-10 00:21:59,908 - INFO - Attempting to launch on port 7860
+2024-12-10 00:22:00,127 - WARNING - Port 7860 is in use, trying next port
+2024-12-10 00:22:00,127 - INFO - Attempting to launch on port 7861
+2024-12-10 00:22:00,269 - WARNING - Port 7861 is in use, trying next port
+2024-12-10 00:22:00,269 - INFO - Attempting to launch on port 7862
+2024-12-10 00:22:00,410 - WARNING - Port 7862 is in use, trying next port
+2024-12-10 00:22:00,411 - INFO - Attempting to launch on port 7863
+2024-12-10 00:22:00,453 - INFO - HTTP Request: GET https://api.gradio.app/pkg-version "HTTP/1.1 200 OK"
+2024-12-10 00:22:00,563 - WARNING - Port 7863 is in use, trying next port
+2024-12-10 00:22:00,563 - INFO - Attempting to launch on port 7864
+2024-12-10 00:22:00,756 - INFO - HTTP Request: GET http://127.0.0.1:7864/gradio_api/startup-events "HTTP/1.1 200 OK"
+2024-12-10 00:22:00,791 - INFO - HTTP Request: HEAD http://127.0.0.1:7864/ "HTTP/1.1 200 OK"
+2024-12-10 09:06:16,076 - INFO - Starting Simple Stable Diffusion application...
+2024-12-10 09:06:16,103 - INFO - CUDA Device: NVIDIA GeForce RTX 4060 Laptop GPU
+2024-12-10 09:06:16,104 - INFO - CUDA Version: 12.4
+2024-12-10 09:06:16,104 - INFO - PyTorch Version: 2.5.1+cu124
+2024-12-10 09:06:16,104 - INFO - Total GPU Memory: 8188 MB
+2024-12-10 09:06:16,105 - INFO - Created directory: models/stable-diffusion
+2024-12-10 09:06:16,105 - INFO - Created directory: models/lora
+2024-12-10 09:06:16,105 - INFO - Created directory: output_images
+2024-12-10 09:06:16,105 - INFO - Creating UI...
+2024-12-10 09:06:16,234 - INFO - Found models: ['forgottenmixAnimation_v10.safetensors', 'Ket_Tova_+Lora.safetensors']
+2024-12-10 09:06:16,235 - INFO - Found models: ['forgottenmixAnimation_v10.safetensors', 'Ket_Tova_+Lora.safetensors']
+2024-12-10 09:06:16,236 - INFO - Found LoRAs: No LoRAs found
+2024-12-10 09:06:16,293 - INFO - Attempting to launch on port 7860
+2024-12-10 09:06:16,510 - INFO - HTTP Request: GET http://127.0.0.1:7860/gradio_api/startup-events "HTTP/1.1 200 OK"
+2024-12-10 09:06:16,586 - INFO - HTTP Request: HEAD http://127.0.0.1:7860/ "HTTP/1.1 200 OK"
+2024-12-10 09:06:16,823 - INFO - HTTP Request: GET https://api.gradio.app/pkg-version "HTTP/1.1 200 OK"
+2024-12-10 09:07:11,822 - INFO - Starting image generation with parameters:
+2024-12-10 09:07:11,823 - INFO - Model: forgottenmixAnimation_v10.safetensors
+2024-12-10 09:07:11,823 - INFO - Scheduler: DPM2
+2024-12-10 09:07:11,823 - INFO - LoRA: None (alpha: 0.75)
+2024-12-10 09:07:11,823 - INFO - Prompt: 3dmm, full body  portrait, The body is standing in the T position, head straight, front facing, facing the viewer, facing front on, looking at the camera, 1girl, slim, skinny body, centered, absurdres, artist name, White blond hair, hair around her face, short hair, hair down, hair straight down, blue eyes, mediaeval rags, Rag clothing, poverty rags clothing, Victorian tramp clothing, extra extra tiny breasts, extremely small tits, nipples point up, puffy nipples, nipples high up on breasts, flat chested, highres, enormous lips, big mouth, nose, samus aran, solo, full body, standing in a desert, standing straight,, ((masterpiece))
+2024-12-10 09:07:11,824 - INFO - Steps: 30, Width: 720, Height: 1080, CFG: 7, Seed: 4281296450
+2024-12-10 09:07:11,824 - INFO - Denoising Strength: 1
+2024-12-10 09:07:11,825 - INFO - Initializing StableDiffusionPipeline...
+2024-12-10 09:07:18,046 - INFO - Could not enable xformers: Refer to https://github.com/facebookresearch/xformers for more information on how to install xformers
+2024-12-10 09:07:18,639 - INFO - Enabled CPU offloading
+2024-12-10 09:07:18,921 - INFO - Enabled sequential CPU offloading
+2024-12-10 09:07:18,922 - INFO - CUDA Memory Allocated: 0.00 MB
+2024-12-10 09:07:18,922 - INFO - CUDA Memory Reserved: 2.00 MB
+2024-12-10 09:07:18,922 - INFO - Using CUDA for generation
+2024-12-10 09:07:18,924 - INFO - GPU Device: NVIDIA GeForce RTX 4060 Laptop GPU
+2024-12-10 09:07:18,924 - INFO - CUDA Memory Allocated: 0.00 MB
+2024-12-10 09:07:18,924 - INFO - CUDA Memory Reserved: 2.00 MB
+2024-12-10 09:07:18,980 - INFO - Using seed: 4281296450
+2024-12-10 09:07:18,980 - INFO - Generating image...
+2024-12-10 09:09:03,565 - INFO - Final CUDA Memory Allocated: 8.22 MB
+2024-12-10 09:09:03,566 - INFO - Final CUDA Memory Reserved: 22.00 MB
+2024-12-10 09:09:03,735 - INFO - Image saved to: output_images\generated_4281296450.png
+2024-12-10 09:09:15,479 - INFO - Starting image generation with parameters:
+2024-12-10 09:09:15,479 - INFO - Model: Ket_Tova_+Lora.safetensors
+2024-12-10 09:09:15,482 - INFO - Scheduler: DPM2
+2024-12-10 09:09:15,491 - INFO - LoRA: None (alpha: 0.75)
+2024-12-10 09:09:15,492 - INFO - Prompt: 3dmm, full body  portrait, The body is standing in the T position, head straight, front facing, facing the viewer, facing front on, looking at the camera, 1girl, slim, skinny body, centered, absurdres, artist name, White blond hair, hair around her face, short hair, hair down, hair straight down, blue eyes, mediaeval rags, Rag clothing, poverty rags clothing, Victorian tramp clothing, extra extra tiny breasts, extremely small tits, nipples point up, puffy nipples, nipples high up on breasts, flat chested, highres, enormous lips, big mouth, nose, samus aran, solo, full body, standing in a desert, standing straight,, ((masterpiece))
+2024-12-10 09:09:15,493 - INFO - Steps: 30, Width: 720, Height: 1080, CFG: 7, Seed: 4281296450
+2024-12-10 09:09:15,493 - INFO - Denoising Strength: 1
+2024-12-10 09:09:15,496 - INFO - Initializing StableDiffusionPipeline...
+2024-12-10 09:09:19,714 - INFO - Could not enable xformers: Refer to https://github.com/facebookresearch/xformers for more information on how to install xformers
+2024-12-10 09:09:20,552 - INFO - Enabled CPU offloading
+2024-12-10 09:09:20,635 - INFO - Enabled sequential CPU offloading
+2024-12-10 09:09:20,660 - INFO - CUDA Memory Allocated: 8.13 MB
+2024-12-10 09:09:20,661 - INFO - CUDA Memory Reserved: 22.00 MB
+2024-12-10 09:09:20,662 - INFO - Using CUDA for generation
+2024-12-10 09:09:20,675 - INFO - GPU Device: NVIDIA GeForce RTX 4060 Laptop GPU
+2024-12-10 09:09:20,676 - INFO - CUDA Memory Allocated: 8.13 MB
+2024-12-10 09:09:20,692 - INFO - CUDA Memory Reserved: 22.00 MB
+2024-12-10 09:09:20,693 - INFO - Using seed: 4281296450
+2024-12-10 09:09:20,693 - INFO - Generating image...
+2024-12-10 09:11:05,600 - INFO - Final CUDA Memory Allocated: 8.22 MB
+2024-12-10 09:11:05,601 - INFO - Final CUDA Memory Reserved: 22.00 MB
+2024-12-10 09:11:05,770 - INFO - Image saved to: output_images\generated_4281296450.png
+2024-12-10 09:19:13,117 - INFO - Starting image generation with parameters:
+2024-12-10 09:19:13,118 - INFO - Model: Ket_Tova_+Lora.safetensors
+2024-12-10 09:19:13,119 - INFO - Scheduler: DPM2
+2024-12-10 09:19:13,119 - INFO - LoRA: None (alpha: 0.75)
+2024-12-10 09:19:13,119 - INFO - Prompt: 3dmm, full body  portrait, The body is standing in the T position, head straight, front facing, facing the viewer, facing front on, looking at the camera, 1girl, slim, skinny body, centered, absurdres, artist name, White blond hair, hair around her face, short hair, hair down, hair straight down, blue eyes, mediaeval rags, Rag clothing, poverty rags clothing, Victorian tramp clothing, extra extra tiny breasts, extremely small tits, nipples point up, puffy nipples, nipples high up on breasts, flat chested, highres, enormous lips, big mouth, nose, samus aran, solo, full body, standing in a desert, standing straight,, ((masterpiece))
+2024-12-10 09:19:13,121 - INFO - Steps: 30, Width: 720, Height: 1080, CFG: 7, Seed: 4281296450
+2024-12-10 09:19:13,121 - INFO - Denoising Strength: 1
+2024-12-10 09:19:13,128 - INFO - Initializing StableDiffusionPipeline...
+2024-12-10 09:19:17,232 - INFO - Could not enable xformers: Refer to https://github.com/facebookresearch/xformers for more information on how to install xformers
+2024-12-10 09:19:18,014 - INFO - Enabled CPU offloading
+2024-12-10 09:19:18,090 - INFO - Enabled sequential CPU offloading
+2024-12-10 09:19:18,090 - INFO - CUDA Memory Allocated: 8.13 MB
+2024-12-10 09:19:18,091 - INFO - CUDA Memory Reserved: 22.00 MB
+2024-12-10 09:19:18,091 - INFO - Using CUDA for generation
+2024-12-10 09:19:18,091 - INFO - GPU Device: NVIDIA GeForce RTX 4060 Laptop GPU
+2024-12-10 09:19:18,091 - INFO - CUDA Memory Allocated: 8.13 MB
+2024-12-10 09:19:18,092 - INFO - CUDA Memory Reserved: 22.00 MB
+2024-12-10 09:19:18,092 - INFO - Using seed: 4281296450
+2024-12-10 09:19:18,092 - INFO - Generating image...
+2024-12-10 09:21:02,782 - INFO - Final CUDA Memory Allocated: 8.23 MB
+2024-12-10 09:21:02,783 - INFO - Final CUDA Memory Reserved: 22.00 MB
+2024-12-10 09:21:02,956 - INFO - Image saved to: output_images\generated_4281296450.png
