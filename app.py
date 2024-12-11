@@ -270,94 +270,175 @@ def create_ui():
     create_directories()
     logger.info("Creating UI...")
 
-    with gr.Blocks(title="Simple Stable Diffusion", theme=gr.themes.Default()) as app:
-        gr.Markdown("# Simple Stable Diffusion")
-        
+    # Use built-in dark theme with minimal customization
+    theme = gr.themes.Default(
+        primary_hue="orange",
+        secondary_hue="gray",
+        neutral_hue="gray",
+    )
+
+    with gr.Blocks(title="Simple Stable Diffusion", theme=theme, css="""
+        .lora-button {
+            width: 50px !important;
+            height: 50px !important;
+            border-radius: 8px !important;
+            padding: 0 !important;
+            min-width: unset !important;
+        }
+        #red-lora { background-color: #FF0000 !important; }
+        #yellow-lora { background-color: #FFFF00 !important; }
+        #green-lora { background-color: #00FF00 !important; }
+        #cyan-lora { background-color: #00FFFF !important; }
+        #blue-lora { background-color: #0000FF !important; }
+        #magenta-lora { background-color: #FF00FF !important; }
+        .footer {
+            text-align: center;
+            margin-top: 20px;
+            color: #666;
+        }
+        .dark {
+            background-color: #1F1F1F;
+        }
+        .dark .gr-button-primary {
+            background-color: #FF5733 !important;
+        }
+        .dark .gr-button-secondary {
+            background-color: #444444 !important;
+        }
+        .dark .gr-input, .dark .gr-dropdown {
+            background-color: #333333 !important;
+            border-color: #444444 !important;
+        }
+        .dark .gr-form {
+            background-color: #2A2A2A !important;
+        }
+        .dark .gr-box {
+            background-color: #2A2A2A !important;
+        }
+    """) as app:
         with gr.Row():
             # Left column for inputs
             with gr.Column(scale=1):
                 with gr.Group():
-                    gr.Markdown("### Model Settings")
                     model_dropdown = gr.Dropdown(
                         choices=get_available_models(),
                         value=get_available_models()[0],
                         label="Model",
                         container=True
                     )
-                    scheduler_dropdown = gr.Dropdown(
-                        choices=list(SCHEDULERS.keys()),
-                        value="DPM++ 2M",
-                        label="Scheduler",
-                        container=True
-                    )
-                
+
                 with gr.Group():
-                    gr.Markdown("### LoRA Settings")
-                    lora_dropdown = gr.Dropdown(
-                        choices=get_available_loras(),
-                        value="None",
-                        label="LoRA Model",
-                        container=True
-                    )
-                    lora_alpha = gr.Slider(
-                        minimum=0.0,
-                        maximum=2.0,
-                        value=0.75,
-                        step=0.05,
-                        label="LoRA Weight"
-                    )
-                
-                with gr.Group():
-                    gr.Markdown("### Prompt Settings")
                     prompt = gr.Textbox(
                         label="Prompt",
                         placeholder="Enter your prompt here...",
-                        lines=3,
-                        container=True
+                        lines=3
                     )
                     negative_prompt = gr.Textbox(
                         label="Negative Prompt",
                         placeholder="Enter negative prompt here...",
-                        lines=3,
-                        container=True
+                        lines=3
                     )
-                
+
+                with gr.Row():
+                    with gr.Column(scale=1):
+                        steps = gr.Slider(
+                            minimum=1,
+                            maximum=150,
+                            value=20,
+                            step=1,
+                            label="Sampling Steps"
+                        )
+                    with gr.Column(scale=1):
+                        cfg_scale = gr.Slider(
+                            minimum=1,
+                            maximum=30,
+                            value=7,
+                            step=0.5,
+                            label="CFG Scale"
+                        )
+
+                with gr.Row():
+                    with gr.Column(scale=1):
+                        width = gr.Slider(
+                            minimum=64,
+                            maximum=2048,
+                            value=512,
+                            step=64,
+                            label="Width"
+                        )
+                    with gr.Column(scale=1):
+                        height = gr.Slider(
+                            minimum=64,
+                            maximum=2048,
+                            value=512,
+                            step=64,
+                            label="Height"
+                        )
+
+                with gr.Row():
+                    with gr.Column(scale=1):
+                        sampling_method = gr.Dropdown(
+                            choices=list(SCHEDULERS.keys()),
+                            value="DPM++ 2M",
+                            label="Sampling Method"
+                        )
+                    with gr.Column(scale=1):
+                        scheduler_dropdown = gr.Dropdown(
+                            choices=list(SCHEDULERS.keys()),
+                            value="DPM++ 2M",
+                            label="Scheduler"
+                        )
+
+                with gr.Row():
+                    seed = gr.Number(value=-1, label="Seed", precision=0)
+                    randomize_seed = gr.Button("🎲", scale=0.1)
+
                 with gr.Group():
-                    gr.Markdown("### Generation Settings")
+                    gr.Markdown("### Control Nets")
                     with gr.Row():
-                        steps = gr.Slider(minimum=1, maximum=150, value=20, step=1, label="Sampling Steps")
-                        cfg_scale = gr.Slider(minimum=1, maximum=30, value=7, step=0.5, label="CFG Scale")
-                    
-                    with gr.Row():
-                        width = gr.Slider(minimum=64, maximum=2048, value=512, step=64, label="Width")
-                        height = gr.Slider(minimum=64, maximum=2048, value=512, step=64, label="Height")
-                    
-                    with gr.Row():
-                        seed = gr.Number(value=-1, label="Seed", precision=0)
-                        randomize_seed = gr.Button("🎲")
-                    
-                    denoising_strength = gr.Slider(
-                        minimum=0.0,
-                        maximum=1.0,
-                        value=1.0,
-                        step=0.01,
-                        label="Denoising Strength"
-                    )
-                
-                # Generate button directly under controls
-                generate_btn = gr.Button(
-                    "Generate Image",
-                    variant="primary",
-                    size="lg",
-                    scale=2,
-                    min_width=300,
-                    interactive=True
+                        gr.Button("OpenPose", variant="secondary")
+                        gr.Button("Depth", variant="secondary")
+                        gr.Button("Canny", variant="secondary")
+                        gr.Button("IP Adapter", variant="secondary")
+
+                gr.Markdown("### LoRA Selection")
+                with gr.Row():
+                    gr.Button("", elem_classes="lora-button", elem_id="red-lora")
+                    gr.Button("", elem_classes="lora-button", elem_id="yellow-lora")
+                    gr.Button("", elem_classes="lora-button", elem_id="green-lora")
+                    gr.Button("", elem_classes="lora-button", elem_id="cyan-lora")
+                    gr.Button("", elem_classes="lora-button", elem_id="blue-lora")
+                    gr.Button("", elem_classes="lora-button", elem_id="magenta-lora")
+
+                gr.Markdown("### LoRA Weight")
+                with gr.Row():
+                    gr.Button("5%", size="sm", scale=1)
+                    gr.Button("10%", size="sm", scale=1)
+                    gr.Button("25%", size="sm", scale=1)
+                    gr.Button("50%", size="sm", scale=1)
+                    gr.Button("75%", size="sm", scale=1)
+                    gr.Button("100%", size="sm", scale=1)
+
+                lora_weight = gr.Slider(
+                    minimum=0.0,
+                    maximum=1.0,
+                    value=0.5,
+                    step=0.01,
+                    label="Weight"
                 )
-            
+
+                generate_btn = gr.Button(
+                    "Generate",
+                    variant="primary",
+                    size="lg"
+                )
+
             # Right column for output
             with gr.Column(scale=1):
-                output_image = gr.Image(label="Generated Image", height=512)
+                output_image = gr.Image(label="Generated Image")
                 error_output = gr.Textbox(label="Error Messages", visible=True)
+
+        gr.Markdown("Use via API 🤖 | Built with Gradio 🌟", elem_classes="footer")
 
         def generate_wrapper(*args):
             image, error = generate_image(*args)
@@ -368,8 +449,8 @@ def create_ui():
             inputs=[
                 model_dropdown,
                 scheduler_dropdown,
-                lora_dropdown,
-                lora_alpha,
+                gr.State("None"),  # LoRA name
+                gr.State(0.75),    # LoRA alpha
                 prompt,
                 negative_prompt,
                 steps,
@@ -377,7 +458,7 @@ def create_ui():
                 height,
                 cfg_scale,
                 seed,
-                denoising_strength
+                gr.State(1.0)      # Denoising strength
             ],
             outputs=[output_image, error_output]
         )

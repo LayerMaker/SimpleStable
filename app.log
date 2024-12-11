@@ -1131,3 +1131,115 @@ NotImplementedError: karras is not implemented for <class 'diffusers.schedulers.
 2024-12-10 09:21:02,782 - INFO - Final CUDA Memory Allocated: 8.23 MB
 2024-12-10 09:21:02,783 - INFO - Final CUDA Memory Reserved: 22.00 MB
 2024-12-10 09:21:02,956 - INFO - Image saved to: output_images\generated_4281296450.png
+2024-12-10 09:34:57,123 - INFO - Starting Simple Stable Diffusion application...
+2024-12-10 09:34:57,167 - INFO - CUDA Device: NVIDIA GeForce RTX 4060 Laptop GPU
+2024-12-10 09:34:57,168 - INFO - CUDA Version: 12.4
+2024-12-10 09:34:57,168 - INFO - PyTorch Version: 2.5.1+cu124
+2024-12-10 09:34:57,168 - INFO - Total GPU Memory: 8188 MB
+2024-12-10 09:34:57,168 - INFO - Created directory: models/stable-diffusion
+2024-12-10 09:34:57,169 - INFO - Created directory: models/lora
+2024-12-10 09:34:57,169 - INFO - Created directory: output_images
+2024-12-10 09:34:57,169 - INFO - Creating UI...
+2024-12-10 09:34:57,327 - INFO - Found models: ['forgottenmixAnimation_v10.safetensors', 'Ket_Tova_+Lora.safetensors']
+2024-12-10 09:34:57,329 - INFO - Found models: ['forgottenmixAnimation_v10.safetensors', 'Ket_Tova_+Lora.safetensors']
+2024-12-10 09:34:57,329 - INFO - Found LoRAs: No LoRAs found
+2024-12-10 09:34:57,387 - INFO - Attempting to launch on port 7860
+2024-12-10 09:34:57,620 - WARNING - Port 7860 is in use, trying next port
+2024-12-10 09:34:57,620 - INFO - Attempting to launch on port 7861
+2024-12-10 09:34:57,811 - INFO - HTTP Request: GET http://127.0.0.1:7861/gradio_api/startup-events "HTTP/1.1 200 OK"
+2024-12-10 09:34:57,852 - INFO - HTTP Request: GET https://api.gradio.app/pkg-version "HTTP/1.1 200 OK"
+2024-12-10 09:34:58,067 - INFO - HTTP Request: HEAD http://127.0.0.1:7861/ "HTTP/1.1 200 OK"
+2024-12-10 09:36:29,387 - INFO - Starting image generation with parameters:
+2024-12-10 09:36:29,389 - INFO - Model: Ket_Tova_+Lora.safetensors
+2024-12-10 09:36:29,390 - INFO - Scheduler: DPM++ 2M
+2024-12-10 09:36:29,390 - INFO - LoRA: None (alpha: 0.75)
+2024-12-10 09:36:29,390 - INFO - Prompt: A blonde woman standing in a desert
+2024-12-10 09:36:29,390 - INFO - Steps: 50, Width: 720, Height: 720, CFG: 7, Seed: -1
+2024-12-10 09:36:29,391 - INFO - Denoising Strength: 1
+2024-12-10 09:36:29,392 - INFO - Initializing StableDiffusionPipeline...
+2024-12-10 09:36:39,381 - INFO - Could not enable xformers: Refer to https://github.com/facebookresearch/xformers for more information on how to install xformers
+2024-12-10 09:36:42,183 - INFO - Enabled CPU offloading
+2024-12-10 09:36:42,602 - INFO - Enabled sequential CPU offloading
+2024-12-10 09:36:42,603 - INFO - CUDA Memory Allocated: 0.00 MB
+2024-12-10 09:36:42,604 - INFO - CUDA Memory Reserved: 2.00 MB
+2024-12-10 09:36:42,604 - INFO - Using CUDA for generation
+2024-12-10 09:36:42,604 - INFO - GPU Device: NVIDIA GeForce RTX 4060 Laptop GPU
+2024-12-10 09:36:42,605 - INFO - CUDA Memory Allocated: 0.00 MB
+2024-12-10 09:36:42,606 - INFO - CUDA Memory Reserved: 2.00 MB
+2024-12-10 09:36:42,606 - INFO - Generating image...
+2024-12-10 09:38:54,528 - INFO - Final CUDA Memory Allocated: 8.25 MB
+2024-12-10 09:38:54,529 - INFO - Final CUDA Memory Reserved: 22.00 MB
+2024-12-10 09:38:54,638 - INFO - Image saved to: output_images\generated_-1.png
+2024-12-10 09:47:23,339 - INFO - Starting Simple Stable Diffusion application...
+2024-12-10 09:47:23,364 - INFO - CUDA Device: NVIDIA GeForce RTX 4060 Laptop GPU
+2024-12-10 09:47:23,365 - INFO - CUDA Version: 12.4
+2024-12-10 09:47:23,365 - INFO - PyTorch Version: 2.5.1+cu124
+2024-12-10 09:47:23,365 - INFO - Total GPU Memory: 8188 MB
+2024-12-10 09:47:23,365 - INFO - Created directory: models/stable-diffusion
+2024-12-10 09:47:23,366 - INFO - Created directory: models/lora
+2024-12-10 09:47:23,366 - INFO - Created directory: output_images
+2024-12-10 09:47:23,366 - INFO - Creating UI...
+2024-12-10 10:17:39,889 - INFO - Starting Simple Stable Diffusion application...
+2024-12-10 10:17:39,913 - INFO - CUDA Device: NVIDIA GeForce RTX 4060 Laptop GPU
+2024-12-10 10:17:39,914 - INFO - CUDA Version: 12.4
+2024-12-10 10:17:39,915 - INFO - PyTorch Version: 2.5.1+cu124
+2024-12-10 10:17:39,915 - INFO - Total GPU Memory: 8188 MB
+2024-12-10 10:17:39,915 - INFO - Created directory: models/stable-diffusion
+2024-12-10 10:17:39,916 - INFO - Created directory: models/lora
+2024-12-10 10:17:39,916 - INFO - Created directory: output_images
+2024-12-10 10:17:39,916 - INFO - Creating UI...
+2024-12-10 10:31:56,507 - INFO - Starting Simple Stable Diffusion application...
+2024-12-10 10:31:56,529 - INFO - CUDA Device: NVIDIA GeForce RTX 4060 Laptop GPU
+2024-12-10 10:31:56,530 - INFO - CUDA Version: 12.4
+2024-12-10 10:31:56,530 - INFO - PyTorch Version: 2.5.1+cu124
+2024-12-10 10:31:56,530 - INFO - Total GPU Memory: 8188 MB
+2024-12-10 10:31:56,531 - INFO - Created directory: models/stable-diffusion
+2024-12-10 10:31:56,531 - INFO - Created directory: models/lora
+2024-12-10 10:31:56,531 - INFO - Created directory: output_images
+2024-12-10 10:31:56,531 - INFO - Creating UI...
+2024-12-10 20:42:43,308 - INFO - Starting Simple Stable Diffusion application...
+2024-12-10 20:42:43,356 - INFO - CUDA Device: NVIDIA GeForce RTX 4060 Laptop GPU
+2024-12-10 20:42:43,356 - INFO - CUDA Version: 12.4
+2024-12-10 20:42:43,365 - INFO - PyTorch Version: 2.5.1+cu124
+2024-12-10 20:42:43,365 - INFO - Total GPU Memory: 8188 MB
+2024-12-10 20:42:43,365 - INFO - Created directory: models/stable-diffusion
+2024-12-10 20:42:43,365 - INFO - Created directory: models/lora
+2024-12-10 20:42:43,365 - INFO - Created directory: output_images
+2024-12-10 20:42:43,365 - INFO - Creating UI...
+2024-12-10 20:42:43,681 - INFO - Found models: ['forgottenmixAnimation_v10.safetensors', 'Ket_Tova_+Lora.safetensors']
+2024-12-10 20:42:43,681 - INFO - Found models: ['forgottenmixAnimation_v10.safetensors', 'Ket_Tova_+Lora.safetensors']
+2024-12-10 20:42:43,941 - INFO - Attempting to launch on port 7860
+2024-12-10 20:42:44,483 - INFO - HTTP Request: GET http://127.0.0.1:7860/gradio_api/startup-events "HTTP/1.1 200 OK"
+2024-12-10 20:42:44,516 - INFO - HTTP Request: HEAD http://127.0.0.1:7860/ "HTTP/1.1 200 OK"
+2024-12-10 20:44:06,230 - INFO - Starting image generation with parameters:
+2024-12-10 20:44:06,230 - INFO - Model: Ket_Tova_+Lora.safetensors
+2024-12-10 20:44:06,230 - INFO - Scheduler: Normal
+2024-12-10 20:44:06,237 - INFO - LoRA: None (alpha: 0.75)
+2024-12-10 20:44:06,238 - INFO - Prompt: 3dmm, full body  portrait, The body is standing in the T position, head straight, front facing, facing the viewer, facing front on, looking at the camera, 1girl, slim, skinny body, centered, absurdres, artist name, White blond hair, hair around her face, short hair, hair down, hair straight down, blue eyes, mediaeval rags, Rag clothing, poverty rags clothing, Victorian tramp clothing, extra extra tiny breasts, extremely small tits, nipples point up, puffy nipples, nipples high up on breasts, flat chested, highres, enormous lips, big mouth, nose, samus aran, solo, full body, standing in a desert, standing straight,, ((masterpiece)) 
+2024-12-10 20:44:06,238 - INFO - Steps: 50, Width: 720, Height: 1080, CFG: 7, Seed: 4281296450
+2024-12-10 20:44:06,238 - INFO - Denoising Strength: 1.0
+2024-12-10 20:44:06,238 - INFO - Initializing StableDiffusionPipeline...
+2024-12-10 20:44:06,238 - ERROR - Error generating image: 'Normal'
+Traceback (most recent call last):
+  File "C:\Users\crock\.aider\SimpleStable\app.py", line 205, in generate_image
+    scheduler = SCHEDULERS[scheduler_name]()
+KeyError: 'Normal'
+2024-12-11 08:28:41,059 - INFO - Starting Simple Stable Diffusion application...
+2024-12-11 08:28:41,081 - INFO - CUDA Device: NVIDIA GeForce RTX 4060 Laptop GPU
+2024-12-11 08:28:41,082 - INFO - CUDA Version: 12.4
+2024-12-11 08:28:41,082 - INFO - PyTorch Version: 2.5.1+cu124
+2024-12-11 08:28:41,082 - INFO - Total GPU Memory: 8188 MB
+2024-12-11 08:28:41,082 - INFO - Created directory: models/stable-diffusion
+2024-12-11 08:28:41,082 - INFO - Created directory: models/lora
+2024-12-11 08:28:41,082 - INFO - Created directory: output_images
+2024-12-11 08:28:41,083 - INFO - Creating UI...
+2024-12-11 08:28:41,247 - INFO - Found models: ['forgottenmixAnimation_v10.safetensors', 'Ket_Tova_+Lora.safetensors']
+2024-12-11 08:28:41,248 - INFO - Found models: ['forgottenmixAnimation_v10.safetensors', 'Ket_Tova_+Lora.safetensors']
+2024-12-11 08:28:41,327 - INFO - Attempting to launch on port 7860
+2024-12-11 08:28:41,481 - WARNING - Port 7860 is in use, trying next port
+2024-12-11 08:28:41,481 - INFO - Attempting to launch on port 7861
+2024-12-11 08:28:41,601 - WARNING - Port 7861 is in use, trying next port
+2024-12-11 08:28:41,601 - INFO - Attempting to launch on port 7862
+2024-12-11 08:28:41,751 - INFO - HTTP Request: GET http://127.0.0.1:7862/gradio_api/startup-events "HTTP/1.1 200 OK"
+2024-12-11 08:28:41,767 - INFO - HTTP Request: HEAD http://127.0.0.1:7862/ "HTTP/1.1 200 OK"
+2024-12-11 08:28:41,924 - INFO - HTTP Request: GET https://api.gradio.app/pkg-version "HTTP/1.1 200 OK"
